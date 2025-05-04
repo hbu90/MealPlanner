@@ -10,11 +10,10 @@ class MealPlannerTasks:
         return Task(
             description=dedent(
                 f"""
-            Do something as part of task 1
-
             {self.__tip_section()}
 
-            Generate 10 unique {meal_type} meal ideas that meet the {input_criteria}. 
+            Generate 10 unique {meal_type} meal ideas that meet the {input_criteria}.
+            Note that dietary requirements should be met and any food exclusions mentioned should not be used. 
             For each idea, list ingredients with precise amounts, for one portion.
         """
             ),
@@ -23,7 +22,26 @@ class MealPlannerTasks:
             async_execution=True,
         )
 
-    def reporting_task(self, agent, meal_plan_task):
+    def nutrition_value_task(self, agent, meal_plan_task):
+        return Task(
+            description=dedent(
+                f"""
+            Do something as part of task 1
+
+            {self.__tip_section()}
+
+            Examine each meal given in the JSON array and append additional information for:
+            total calories, total carbohydrates, total carbohydrates that sugar, total fat, 
+            total saturated fats, total protein 
+            
+        """
+            ),
+            expected_output="An updated JSON array that contains the total nutritional values.",
+            agent=agent,
+            context=meal_plan_task,
+        )
+
+    def reporting_task(self, agent, enriched_meals_task):
         return Task(
             description=dedent(
                 f"""
@@ -35,8 +53,9 @@ class MealPlannerTasks:
             expected_output="An HTML file with the results in the following format:"
             "The Meal Type (e.g., Breakfast, Lunch, Dinner)"
             "- Meal Name"
-            "- Ingredients and Measurements",
+            "- Ingredients and Measurements"
+            "- Nutritional Values (calories, protein, fats, etc)",
             agent=agent,
-            context=meal_plan_task,
+            context=[enriched_meals_task],
             output_file="./meal_plan.html",
         )
