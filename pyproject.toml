@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mealplanner"
+version = "0.1.0"
+description = ""
+authors = ["hbu90 <76783951+hbu90@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+openai = "^1.77.0"
+black = "^25.1.0"
+crewai = "^0.118.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
