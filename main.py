@@ -20,6 +20,7 @@ class MealPlannerCrew:
         tasks = MealPlannerTasks()
 
         meal_idea_agent = agents.meal_idea_agent()
+        nutrition_agent = agents.nutrition_agent()
         frontend_agent = agents.frontend_agent()
 
         meal_generation_tasks = [
@@ -31,11 +32,13 @@ class MealPlannerCrew:
             for meal_type in MEAL_TYPES
         ]
 
-        reporting_task = tasks.reporting_task(frontend_agent, meal_generation_tasks)
+        nutrition_value_task = tasks.nutrition_value_task(nutrition_agent, meal_generation_tasks)
+
+        reporting_task = tasks.reporting_task(frontend_agent, nutrition_value_task)
 
         crew = Crew(
-            agents=[meal_idea_agent, frontend_agent],
-            tasks=meal_generation_tasks + [reporting_task],
+            agents=[meal_idea_agent, nutrition_agent, frontend_agent],
+            tasks=meal_generation_tasks + [nutrition_value_task, reporting_task],
             process=Process.sequential,
             verbose=True,
         )
@@ -48,12 +51,10 @@ if __name__ == "__main__":
     print("## Welcome to the Meal Planner")
     print("-------------------------------")
     input_dietary = input(dedent("""Do you have any dietary requirements?"""))
-    input_preferences = input(dedent("""What foods do you like?"""))
     input_exclusions = input(dedent("""What foods do you dislike?"""))
 
     our_input_criteria = f"""
     Dietary requirements are: {input_dietary}
-    Food preferences are: {input_preferences}
     Food exclusions are: {input_exclusions}
     """
 
