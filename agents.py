@@ -23,6 +23,22 @@ class MealPlannerAgents:
             llm=self.OpenAIGPT4_1_MINI,
         )
 
+    def nutrition_agent(self):
+        return Agent(
+            role="Nutrition Expert",
+            backstory=dedent(
+                f"""You are a Nutrition Expert with a deep understanding of calories, food macros, and nutrition."""
+            ),
+            goal=dedent(
+                f"""For a set of meals, calculate for each the:
+                    total calories, total carbohydrates, total carbohydrates that sugar, total fat, 
+                    total saturated fats, total protein """
+            ),
+            allow_delegation=False,
+            verbose=True,
+            llm=self.OpenAIGPT4_1_MINI,
+        )
+
     def frontend_agent(self):
         return Agent(
             role="Senior AI Frontend Engineer",
