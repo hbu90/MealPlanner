@@ -15,7 +15,7 @@ class MealPlannerAgents:
                 f"""You are a creative Head Chef with a deep understanding of recipes and nutrition."""
             ),
             goal=dedent(
-                f"""Generate 5 meal ideas for a given meal type that satisfy 
+                f"""Generate 40 meal ideas for a given meal type that satisfy 
                 a set of requirements. You should provide ingredients and amounts for one portion."""
             ),
             allow_delegation=False,
@@ -33,6 +33,22 @@ class MealPlannerAgents:
                 f"""For a set of meals, calculate for each the:
                     total calories, total carbohydrates, total carbohydrates that sugar, total fat, 
                     total saturated fats, total protein """
+            ),
+            allow_delegation=False,
+            verbose=True,
+            llm=self.OpenAIGPT4_1_MINI,
+        )
+
+    def meal_planner_agent(self):
+        return Agent(
+            role="Meal Planning Expert",
+            backstory=dedent(
+                f"""You are a Meal Planning Expert who can construct weekly meal plans that meet 
+                calorie and macronutrient requirements,"""
+            ),
+            goal=dedent(
+                f"""For a given set of meal options and calorie and macronutrient daily requirements, 
+                create a meal plan for one week that contains breakfast, lunch, and dinner and includes two snacks."""
             ),
             allow_delegation=False,
             verbose=True,
