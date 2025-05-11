@@ -12,21 +12,21 @@ class MealPlannerTasks:
                 f"""
             {self.__tip_section()}
 
-            Generate 10 unique {meal_type} meal ideas that meet the {input_criteria}.
+            Generate 40 unique {meal_type} meal ideas that meet the {input_criteria}.
             Note that dietary requirements should be met and any food exclusions mentioned should not be used. 
             For each idea, list ingredients with precise amounts, for one portion.
         """
             ),
-            expected_output="A JSON array of 10 meal objects, each with name, ingredients, and amounts.",
+            expected_output="A JSON array of 40 meal objects, each with name, ingredients, and amounts.",
             agent=agent,
             async_execution=True,
+            output_file="./meal_ideas.json",
         )
 
     def nutrition_value_task(self, agent, meal_plan_task):
         return Task(
             description=dedent(
                 f"""
-            Do something as part of task 1
 
             {self.__tip_section()}
 
@@ -39,9 +39,29 @@ class MealPlannerTasks:
             expected_output="An updated JSON array that contains the total nutritional values.",
             agent=agent,
             context=meal_plan_task,
+            output_file="./meal_ideas_with_cals.json",
         )
 
-    def reporting_task(self, agent, enriched_meals_task):
+    def meal_planning_task(self, agent, enriched_meals_task, nutrition_requirements):
+        return Task(
+            description=dedent(
+                f"""
+                {self.__tip_section()}
+                
+                Using the nutritional data with the generated meal ideas, 
+                consider the daily nutritional requirements {nutrition_requirements} 
+                and plan a meal plan for one week that contains breakfast, lunch, and dinner and up to two snacks.
+                There can be one or zero snacks.
+                """
+            ),
+            expected_output="A JSON array that has meal entries for every day of the week (Monday to Sunday) and "
+            "entries for the meals breakfast, lunch, snacks, and dinner. Include calorie information.",
+            agent=agent,
+            context=[enriched_meals_task],
+            output_file="./meal_plan.json",
+        )
+
+    def reporting_task(self, agent, meals_planned_task):
         return Task(
             description=dedent(
                 f"""
@@ -51,11 +71,12 @@ class MealPlannerTasks:
         """
             ),
             expected_output="An HTML file with the results in the following format:"
+            "The Day of the Week"
             "The Meal Type (e.g., Breakfast, Lunch, Dinner)"
             "- Meal Name"
-            "- Ingredients and Measurements"
-            "- Nutritional Values (calories, protein, fats, etc)",
+            "   - Ingredients and Measurements"
+            "   - Nutritional Values (calories, protein, fats, etc)",
             agent=agent,
-            context=[enriched_meals_task],
+            context=[meals_planned_task],
             output_file="./meal_plan.html",
         )
