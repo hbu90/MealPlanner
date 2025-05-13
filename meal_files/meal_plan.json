@@ -1,0 +1,300 @@
+{
+  "Monday": {
+    "breakfast": {
+      "name": "Eggs Benedict with Gluten-Free English Muffin",
+      "calories": 510,
+      "protein": 33,
+      "fat": 33,
+      "carbs": 30,
+      "sugar": 3,
+      "saturated_fat": 11
+    },
+    "lunch": {
+      "name": "Smoked Turkey and Avocado Gluten-Free Sandwich",
+      "calories": 380,
+      "protein": 32,
+      "fat": 15,
+      "carbs": 24,
+      "sugar": 2,
+      "saturated_fat": 3
+    },
+    "dinner": {
+      "name": "Sweet Potato and Chickpea Breakfast Bowl",
+      "calories": 430,
+      "protein": 27,
+      "fat": 16,
+      "carbs": 38,
+      "sugar": 7,
+      "saturated_fat": 4
+    },
+    "snacks": [
+      {
+        "name": "Greek Yogurt with Honey and Walnuts",
+        "calories": 395,
+        "protein": 20,
+        "fat": 24,
+        "carbs": 26,
+        "sugar": 22,
+        "saturated_fat": 4
+      },
+      {
+        "name": "Rice Cakes with Almond Butter and Banana",
+        "calories": 360,
+        "protein": 8,
+        "fat": 20,
+        "carbs": 38,
+        "sugar": 18,
+        "saturated_fat": 2
+      }
+    ]
+  },
+  "Tuesday": {
+    "breakfast": {
+      "name": "Sweet Potato and Spinach Frittata",
+      "calories": 370,
+      "protein": 21,
+      "fat": 24,
+      "carbs": 20,
+      "sugar": 6,
+      "saturated_fat": 6
+    },
+    "lunch": {
+      "name": "Avocado and Smoked Salmon Gluten-Free Toast",
+      "calories": 430,
+      "protein": 21,
+      "fat": 29,
+      "carbs": 18,
+      "sugar": 3,
+      "saturated_fat": 5
+    },
+    "dinner": {
+      "name": "Sweet Potato Hash with Sausage and Peppers",
+      "calories": 525,
+      "protein": 23,
+      "fat": 32,
+      "carbs": 36,
+      "sugar": 8,
+      "saturated_fat": 9
+    },
+    "snacks": [
+      {
+        "name": "Berry Quinoa Breakfast Bowl",
+        "calories": 370,
+        "protein": 9,
+        "fat": 9,
+        "carbs": 49,
+        "sugar": 20,
+        "saturated_fat": 1
+      },
+      {
+        "name": "Cottage Cheese and Pineapple Bowl",
+        "calories": 280,
+        "protein": 24,
+        "fat": 12,
+        "carbs": 20,
+        "sugar": 15,
+        "saturated_fat": 7
+      }
+    ]
+  },
+  "Wednesday": {
+    "breakfast": {
+      "name": "Scrambled Eggs with Spinach and Goat Cheese",
+      "calories": 365,
+      "protein": 22,
+      "fat": 29,
+      "carbs": 4,
+      "sugar": 1,
+      "saturated_fat": 9
+    },
+    "lunch": {
+      "name": "Gluten-Free Pancakes with Blueberry Compote",
+      "calories": 400,
+      "protein": 9,
+      "fat": 10,
+      "carbs": 53,
+      "sugar": 24,
+      "saturated_fat": 4
+    },
+    "dinner": {
+      "name": "Sweet Potato and Black Bean Breakfast Burrito Bowl",
+      "calories": 410,
+      "protein": 22,
+      "fat": 18,
+      "carbs": 42,
+      "sugar": 7,
+      "saturated_fat": 5
+    },
+    "snacks": [
+      {
+        "name": "Gluten-Free Granola with Almond Milk and Berries",
+        "calories": 410,
+        "protein": 8,
+        "fat": 11,
+        "carbs": 57,
+        "sugar": 27,
+        "saturated_fat": 2
+      }
+    ]
+  },
+  "Thursday": {
+    "breakfast": {
+      "name": "Omelette with Tomatoes and Feta Cheese",
+      "calories": 375,
+      "protein": 23,
+      "fat": 28,
+      "carbs": 6,
+      "sugar": 4,
+      "saturated_fat": 9
+    },
+    "lunch": {
+      "name": "Turkey Bacon and Avocado Breakfast Bowl",
+      "calories": 390,
+      "protein": 19,
+      "fat": 33,
+      "carbs": 11,
+      "sugar": 4,
+      "saturated_fat": 7
+    },
+    "dinner": {
+      "name": "Sweet Potato Pancakes with Greek Yogurt",
+      "calories": 410,
+      "protein": 16,
+      "fat": 15,
+      "carbs": 44,
+      "sugar": 25,
+      "saturated_fat": 3
+    },
+    "snacks": [
+      {
+        "name": "Banana Almond Butter Toast on Gluten-Free Bread",
+        "calories": 470,
+        "protein": 9,
+        "fat": 21,
+        "carbs": 55,
+        "sugar": 28,
+        "saturated_fat": 2
+      }
+    ]
+  },
+  "Friday": {
+    "breakfast": {
+      "name": "Sweet Potato and Kale Breakfast Skillet",
+      "calories": 380,
+      "protein": 15,
+      "fat": 18,
+      "carbs": 35,
+      "sugar": 7,
+      "saturated_fat": 4
+    },
+    "lunch": {
+      "name": "Gluten-Free Bagel with Cream Cheese and Cucumber",
+      "calories": 400,
+      "protein": 11,
+      "fat": 16,
+      "carbs": 44,
+      "sugar": 5,
+      "saturated_fat": 8
+    },
+    "dinner": {
+      "name": "Buckwheat Crepes with Ricotta and Berries",
+      "calories": 410,
+      "protein": 15,
+      "fat": 18,
+      "carbs": 44,
+      "sugar": 24,
+      "saturated_fat": 7
+    },
+    "snacks": [
+      {
+        "name": "Egg Muffins with Spinach and Bell Peppers",
+        "calories": 320,
+        "protein": 22,
+        "fat": 23,
+        "carbs": 6,
+        "sugar": 4,
+        "saturated_fat": 7
+      }
+    ]
+  },
+  "Saturday": {
+    "breakfast": {
+      "name": "Tofu Scramble with Bell Peppers and Spinach",
+      "calories": 280,
+      "protein": 23,
+      "fat": 20,
+      "carbs": 10,
+      "sugar": 5,
+      "saturated_fat": 3
+    },
+    "lunch": {
+      "name": "Breakfast Salad with Quinoa, Eggs, and Avocado",
+      "calories": 480,
+      "protein": 23,
+      "fat": 33,
+      "carbs": 26,
+      "sugar": 3,
+      "saturated_fat": 7
+    },
+    "dinner": {
+      "name": "Sweet Potato Toast with Almond Butter and Strawberries",
+      "calories": 410,
+      "protein": 8,
+      "fat": 22,
+      "carbs": 43,
+      "sugar": 20,
+      "saturated_fat": 2
+    },
+    "snacks": [
+      {
+        "name": "Papaya and Greek Yogurt Bowl with Nuts",
+        "calories": 410,
+        "protein": 19,
+        "fat": 27,
+        "carbs": 30,
+        "sugar": 24,
+        "saturated_fat": 4
+      }
+    ]
+  },
+  "Sunday": {
+    "breakfast": {
+      "name": "Cinnamon Apple and Walnut Oatmeal",
+      "calories": 310,
+      "protein": 7,
+      "fat": 13,
+      "carbs": 40,
+      "sugar": 15,
+      "saturated_fat": 1
+    },
+    "lunch": {
+      "name": "Gluten-Free Muesli with Yogurt and Fruit",
+      "calories": 360,
+      "protein": 11,
+      "fat": 11,
+      "carbs": 44,
+      "sugar": 25,
+      "saturated_fat": 3
+    },
+    "dinner": {
+      "name": "Zucchini and Cheese Omelette",
+      "calories": 390,
+      "protein": 25,
+      "fat": 30,
+      "carbs": 6,
+      "sugar": 3,
+      "saturated_fat": 11
+    },
+    "snacks": [
+      {
+        "name": "Almond Flour Banana Muffins",
+        "calories": 400,
+        "protein": 8,
+        "fat": 20,
+        "carbs": 38,
+        "sugar": 22,
+        "saturated_fat": 2
+      }
+    ]
+  }
+}

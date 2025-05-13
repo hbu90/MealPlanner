@@ -1,0 +1,542 @@
+[
+  {
+    "meal_type": "breakfast",
+    "name": "Avocado and Smoked Salmon Gluten-Free Toast",
+    "ingredients": [
+      {"ingredient": "gluten-free bread", "amount": "2 slices"},
+      {"ingredient": "ripe avocado", "amount": "1/2 medium"},
+      {"ingredient": "smoked salmon", "amount": "75g"},
+      {"ingredient": "lemon juice", "amount": "1 tsp"},
+      {"ingredient": "cherry tomatoes", "amount": "5 halves"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Berry Quinoa Breakfast Bowl",
+    "ingredients": [
+      {"ingredient": "cooked quinoa", "amount": "1 cup"},
+      {"ingredient": "blueberries", "amount": "1/2 cup"},
+      {"ingredient": "strawberries", "amount": "1/2 cup, sliced"},
+      {"ingredient": "almond milk unsweetened", "amount": "1/2 cup"},
+      {"ingredient": "chia seeds", "amount": "1 tbsp"},
+      {"ingredient": "honey", "amount": "1 tsp"},
+      {"ingredient": "slivered almonds", "amount": "1 tbsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Sweet Potato and Spinach Frittata",
+    "ingredients": [
+      {"ingredient": "large eggs", "amount": "3"},
+      {"ingredient": "sweet potato, peeled and diced", "amount": "100g"},
+      {"ingredient": "fresh spinach", "amount": "1 cup"},
+      {"ingredient": "feta cheese", "amount": "30g"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Peanut Butter Banana Smoothie Bowl",
+    "ingredients": [
+      {"ingredient": "ripe banana", "amount": "1 medium"},
+      {"ingredient": "peanut butter natural", "amount": "2 tbsp"},
+      {"ingredient": "unsweetened almond milk", "amount": "3/4 cup"},
+      {"ingredient": "gluten-free oats", "amount": "1/4 cup"},
+      {"ingredient": "chia seeds", "amount": "1 tbsp"},
+      {"ingredient": "honey", "amount": "1 tsp"},
+      {"ingredient": "sliced almonds", "amount": "1 tbsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Greek Yogurt with Honey and Walnuts",
+    "ingredients": [
+      {"ingredient": "full-fat Greek yogurt", "amount": "1 cup"},
+      {"ingredient": "walnuts chopped", "amount": "30g"},
+      {"ingredient": "honey", "amount": "2 tsp"},
+      {"ingredient": "fresh raspberries", "amount": "1/2 cup"},
+      {"ingredient": "ground cinnamon", "amount": "1/4 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Gluten-Free Pancakes with Blueberry Compote",
+    "ingredients": [
+      {"ingredient": "gluten-free pancake mix", "amount": "1/2 cup"},
+      {"ingredient": "egg", "amount": "1 large"},
+      {"ingredient": "unsweetened almond milk", "amount": "1/3 cup"},
+      {"ingredient": "fresh blueberries", "amount": "1/2 cup"},
+      {"ingredient": "maple syrup", "amount": "1 tbsp"},
+      {"ingredient": "butter", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Chia Seed Pudding with Mango",
+    "ingredients": [
+      {"ingredient": "chia seeds", "amount": "3 tbsp"},
+      {"ingredient": "coconut milk", "amount": "3/4 cup"},
+      {"ingredient": "ripe mango diced", "amount": "1/2 cup"},
+      {"ingredient": "vanilla extract", "amount": "1/4 tsp"},
+      {"ingredient": "honey", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Scrambled Eggs with Spinach and Goat Cheese",
+    "ingredients": [
+      {"ingredient": "large eggs", "amount": "3"},
+      {"ingredient": "fresh spinach", "amount": "1 cup"},
+      {"ingredient": "goat cheese", "amount": "30g"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Cottage Cheese and Pineapple Bowl",
+    "ingredients": [
+      {"ingredient": "cottage cheese full-fat", "amount": "1 cup"},
+      {"ingredient": "pineapple chunks", "amount": "3/4 cup"},
+      {"ingredient": "toasted coconut flakes", "amount": "1 tbsp"},
+      {"ingredient": "chia seeds", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Sweet Potato Hash with Sausage and Peppers",
+    "ingredients": [
+      {"ingredient": "sweet potato diced", "amount": "150g"},
+      {"ingredient": "gluten-free sausage links", "amount": "2 small (100g)"},
+      {"ingredient": "red bell pepper chopped", "amount": "1/2 medium"},
+      {"ingredient": "olive oil", "amount": "1 tbsp"},
+      {"ingredient": "onion chopped", "amount": "1/4 medium"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Almond Flour Banana Muffins",
+    "ingredients": [
+      {"ingredient": "almond flour", "amount": "1/2 cup"},
+      {"ingredient": "ripe banana mashed", "amount": "1 medium"},
+      {"ingredient": "egg", "amount": "1 large"},
+      {"ingredient": "baking soda", "amount": "1/4 tsp"},
+      {"ingredient": "honey", "amount": "1 tbsp"},
+      {"ingredient": "vanilla extract", "amount": "1/4 tsp"},
+      {"ingredient": "cinnamon", "amount": "1/4 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Omelette with Tomatoes and Feta Cheese",
+    "ingredients": [
+      {"ingredient": "large eggs", "amount": "3"},
+      {"ingredient": "cherry tomatoes halved", "amount": "6 halves"},
+      {"ingredient": "feta cheese crumbled", "amount": "30g"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "fresh basil", "amount": "5 leaves"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Cinnamon Apple and Walnut Oatmeal",
+    "ingredients": [
+      {"ingredient": "gluten-free rolled oats", "amount": "1/2 cup"},
+      {"ingredient": "water", "amount": "1 cup"},
+      {"ingredient": "apple diced", "amount": "1 small"},
+      {"ingredient": "walnuts chopped", "amount": "2 tbsp"},
+      {"ingredient": "cinnamon", "amount": "1/2 tsp"},
+      {"ingredient": "honey", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Turkey Bacon and Avocado Breakfast Bowl",
+    "ingredients": [
+      {"ingredient": "turkey bacon strips", "amount": "3 strips"},
+      {"ingredient": "avocado diced", "amount": "1/2 medium"},
+      {"ingredient": "cherry tomatoes halved", "amount": "5 halves"},
+      {"ingredient": "mixed greens", "amount": "1 cup"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "lemon juice", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Gluten-Free Breakfast Tacos with Eggs and Salsa",
+    "ingredients": [
+      {"ingredient": "gluten-free corn tortillas", "amount": "2 small"},
+      {"ingredient": "large eggs scrambled", "amount": "2"},
+      {"ingredient": "avocado slices", "amount": "1/4 medium"},
+      {"ingredient": "salsa", "amount": "2 tbsp"},
+      {"ingredient": "cilantro chopped", "amount": "1 tbsp"},
+      {"ingredient": "lime wedge", "amount": "1"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Spinach and Cheese Stuffed Sweet Potato",
+    "ingredients": [
+      {"ingredient": "medium sweet potato", "amount": "1"},
+      {"ingredient": "fresh spinach", "amount": "1 cup"},
+      {"ingredient": "ricotta cheese", "amount": "1/4 cup"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Buckwheat Pancakes with Mixed Berries",
+    "ingredients": [
+      {"ingredient": "buckwheat flour", "amount": "1/2 cup"},
+      {"ingredient": "egg", "amount": "1 large"},
+      {"ingredient": "unsweetened almond milk", "amount": "1/3 cup"},
+      {"ingredient": "baking powder gluten-free", "amount": "1/2 tsp"},
+      {"ingredient": "mixed berries", "amount": "1/2 cup"},
+      {"ingredient": "maple syrup", "amount": "1 tbsp"},
+      {"ingredient": "butter", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Coconut Yogurt Parfait with Gluten-Free Granola",
+    "ingredients": [
+      {"ingredient": "coconut yogurt unsweetened", "amount": "3/4 cup"},
+      {"ingredient": "gluten-free granola", "amount": "1/4 cup"},
+      {"ingredient": "fresh kiwi sliced", "amount": "1 medium"},
+      {"ingredient": "chia seeds", "amount": "1 tsp"},
+      {"ingredient": "honey", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Egg and Avocado Breakfast Salad",
+    "ingredients": [
+      {"ingredient": "hard-boiled eggs", "amount": "2 large"},
+      {"ingredient": "avocado diced", "amount": "1/2 medium"},
+      {"ingredient": "cherry tomatoes halved", "amount": "5 halves"},
+      {"ingredient": "mixed greens", "amount": "1 cup"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "balsamic vinegar", "amount": "1 tsp"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Sweet Potato and Black Bean Breakfast Burrito Bowl",
+    "ingredients": [
+      {"ingredient": "sweet potato diced and roasted", "amount": "100g"},
+      {"ingredient": "black beans cooked", "amount": "1/2 cup"},
+      {"ingredient": "scrambled eggs", "amount": "2 large"},
+      {"ingredient": "salsa", "amount": "2 tbsp"},
+      {"ingredient": "avocado diced", "amount": "1/4 medium"},
+      {"ingredient": "cilantro chopped", "amount": "1 tbsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Rice Cakes with Almond Butter and Banana",
+    "ingredients": [
+      {"ingredient": "gluten-free rice cakes", "amount": "2 medium"},
+      {"ingredient": "almond butter", "amount": "2 tbsp"},
+      {"ingredient": "banana sliced", "amount": "1/2 medium"},
+      {"ingredient": "chia seeds", "amount": "1 tsp"},
+      {"ingredient": "honey", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Polenta Breakfast Bowl with Eggs and Tomato",
+    "ingredients": [
+      {"ingredient": "cooked polenta", "amount": "3/4 cup"},
+      {"ingredient": "large eggs fried", "amount": "2"},
+      {"ingredient": "cherry tomatoes sautéed", "amount": "1/2 cup"},
+      {"ingredient": "parmesan cheese grated", "amount": "1 tbsp"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "basil leaves", "amount": "5 leaves"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Gluten-Free Muesli with Yogurt and Fruit",
+    "ingredients": [
+      {"ingredient": "gluten-free muesli", "amount": "1/2 cup"},
+      {"ingredient": "plain yogurt full-fat", "amount": "3/4 cup"},
+      {"ingredient": "mixed berries", "amount": "1/2 cup"},
+      {"ingredient": "honey", "amount": "1 tsp"},
+      {"ingredient": "flax seeds ground", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Eggs Benedict with Gluten-Free English Muffin",
+    "ingredients": [
+      {"ingredient": "gluten-free English muffin", "amount": "1"},
+      {"ingredient": "poached eggs", "amount": "2"},
+      {"ingredient": "smoked ham", "amount": "50g"},
+      {"ingredient": "hollandaise sauce", "amount": "2 tbsp"},
+      {"ingredient": "fresh parsley", "amount": "1 tsp, chopped"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Buckwheat Crepes with Ricotta and Berries",
+    "ingredients": [
+      {"ingredient": "buckwheat flour", "amount": "1/3 cup"},
+      {"ingredient": "egg", "amount": "1 large"},
+      {"ingredient": "unsweetened almond milk", "amount": "1/3 cup"},
+      {"ingredient": "ricotta cheese", "amount": "1/4 cup"},
+      {"ingredient": "mixed berries", "amount": "1/2 cup"},
+      {"ingredient": "honey", "amount": "1 tsp"},
+      {"ingredient": "butter", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Tofu Scramble with Bell Peppers and Spinach",
+    "ingredients": [
+      {"ingredient": "firm tofu crumbled", "amount": "150g"},
+      {"ingredient": "red bell pepper diced", "amount": "1/2 medium"},
+      {"ingredient": "fresh spinach", "amount": "1 cup"},
+      {"ingredient": "turmeric powder", "amount": "1/4 tsp"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Gluten-Free Bagel with Cream Cheese and Cucumber",
+    "ingredients": [
+      {"ingredient": "gluten-free bagel", "amount": "1 medium"},
+      {"ingredient": "cream cheese", "amount": "2 tbsp"},
+      {"ingredient": "cucumber slices", "amount": "6 slices"},
+      {"ingredient": "fresh dill", "amount": "1 tsp"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Sweet Potato Toast with Almond Butter and Strawberries",
+    "ingredients": [
+      {"ingredient": "sweet potato slices (1/4 inch thick)", "amount": "2 slices"},
+      {"ingredient": "almond butter", "amount": "2 tbsp"},
+      {"ingredient": "strawberries sliced", "amount": "1/2 cup"},
+      {"ingredient": "chia seeds", "amount": "1 tsp"},
+      {"ingredient": "honey", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Breakfast Salad with Quinoa, Eggs, and Avocado",
+    "ingredients": [
+      {"ingredient": "cooked quinoa", "amount": "3/4 cup"},
+      {"ingredient": "hard-boiled eggs", "amount": "2 large"},
+      {"ingredient": "avocado diced", "amount": "1/2 medium"},
+      {"ingredient": "mixed greens", "amount": "1 cup"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "lemon juice", "amount": "1 tsp"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Banana Almond Butter Toast on Gluten-Free Bread",
+    "ingredients": [
+      {"ingredient": "gluten-free bread", "amount": "2 slices"},
+      {"ingredient": "almond butter", "amount": "2 tbsp"},
+      {"ingredient": "banana sliced", "amount": "1 medium"},
+      {"ingredient": "chia seeds", "amount": "1 tsp"},
+      {"ingredient": "honey", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Zucchini and Cheese Omelette",
+    "ingredients": [
+      {"ingredient": "large eggs", "amount": "3"},
+      {"ingredient": "grated zucchini", "amount": "1/2 cup"},
+      {"ingredient": "cheddar cheese shredded", "amount": "30g"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Pumpkin Seed and Banana Gluten-Free Muffins",
+    "ingredients": [
+      {"ingredient": "almond flour", "amount": "1/2 cup"},
+      {"ingredient": "ripe banana mashed", "amount": "1 medium"},
+      {"ingredient": "egg", "amount": "1 large"},
+      {"ingredient": "pumpkin seeds", "amount": "2 tbsp"},
+      {"ingredient": "honey", "amount": "1 tbsp"},
+      {"ingredient": "baking soda", "amount": "1/4 tsp"},
+      {"ingredient": "cinnamon", "amount": "1/4 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Egg and Avocado Gluten-Free Wrap",
+    "ingredients": [
+      {"ingredient": "gluten-free wrap", "amount": "1 medium"},
+      {"ingredient": "scrambled eggs", "amount": "2 large"},
+      {"ingredient": "avocado slices", "amount": "1/4 medium"},
+      {"ingredient": "cherry tomatoes halved", "amount": "5 halves"},
+      {"ingredient": "spinach leaves", "amount": "1/4 cup"},
+      {"ingredient": "salsa", "amount": "1 tbsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Coconut Flour Pancakes with Maple Syrup",
+    "ingredients": [
+      {"ingredient": "coconut flour", "amount": "1/4 cup"},
+      {"ingredient": "egg", "amount": "2 large"},
+      {"ingredient": "unsweetened almond milk", "amount": "1/4 cup"},
+      {"ingredient": "baking powder gluten-free", "amount": "1/2 tsp"},
+      {"ingredient": "maple syrup", "amount": "1 tbsp"},
+      {"ingredient": "butter", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Smoked Turkey and Avocado Gluten-Free Sandwich",
+    "ingredients": [
+      {"ingredient": "gluten-free bread", "amount": "2 slices"},
+      {"ingredient": "smoked turkey breast", "amount": "75g"},
+      {"ingredient": "avocado slices", "amount": "1/4 medium"},
+      {"ingredient": "lettuce leaves", "amount": "2 leaves"},
+      {"ingredient": "mustard", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Overnight Oats with Chia Seeds and Peaches",
+    "ingredients": [
+      {"ingredient": "gluten-free rolled oats", "amount": "1/2 cup"},
+      {"ingredient": "unsweetened almond milk", "amount": "3/4 cup"},
+      {"ingredient": "chia seeds", "amount": "1 tbsp"},
+      {"ingredient": "peach sliced", "amount": "1/2 medium"},
+      {"ingredient": "honey", "amount": "1 tsp"},
+      {"ingredient": "vanilla extract", "amount": "1/4 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Sweet Potato and Kale Breakfast Skillet",
+    "ingredients": [
+      {"ingredient": "sweet potato diced", "amount": "150g"},
+      {"ingredient": "kale chopped", "amount": "1 cup"},
+      {"ingredient": "large eggs", "amount": "2"},
+      {"ingredient": "olive oil", "amount": "1 tbsp"},
+      {"ingredient": "onion chopped", "amount": "1/4 medium"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Rice Porridge with Coconut Milk and Mango",
+    "ingredients": [
+      {"ingredient": "white rice cooked", "amount": "3/4 cup"},
+      {"ingredient": "coconut milk", "amount": "1/2 cup"},
+      {"ingredient": "ripe mango diced", "amount": "1/2 cup"},
+      {"ingredient": "honey", "amount": "1 tsp"},
+      {"ingredient": "toasted coconut flakes", "amount": "1 tbsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Egg Muffins with Spinach and Bell Peppers",
+    "ingredients": [
+      {"ingredient": "large eggs", "amount": "3"},
+      {"ingredient": "fresh spinach chopped", "amount": "1/2 cup"},
+      {"ingredient": "red bell pepper diced", "amount": "1/4 medium"},
+      {"ingredient": "feta cheese crumbled", "amount": "20g"},
+      {"ingredient": "salt", "amount": "to taste"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Gluten-Free Granola with Almond Milk and Berries",
+    "ingredients": [
+      {"ingredient": "gluten-free granola", "amount": "3/4 cup"},
+      {"ingredient": "unsweetened almond milk", "amount": "3/4 cup"},
+      {"ingredient": "fresh blueberries", "amount": "1/2 cup"},
+      {"ingredient": "honey", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Sweet Potato Pancakes with Greek Yogurt",
+    "ingredients": [
+      {"ingredient": "sweet potato mashed", "amount": "1/2 cup"},
+      {"ingredient": "almond flour", "amount": "1/3 cup"},
+      {"ingredient": "egg", "amount": "1 large"},
+      {"ingredient": "cinnamon", "amount": "1/4 tsp"},
+      {"ingredient": "Greek yogurt", "amount": "1/2 cup"},
+      {"ingredient": "maple syrup", "amount": "1 tbsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Eggs and Bacon with Roasted Tomatoes",
+    "ingredients": [
+      {"ingredient": "large eggs", "amount": "2"},
+      {"ingredient": "gluten-free bacon strips", "amount": "3 strips"},
+      {"ingredient": "cherry tomatoes roasted", "amount": "1/2 cup"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "black pepper", "amount": "to taste"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Papaya and Greek Yogurt Bowl with Nuts",
+    "ingredients": [
+      {"ingredient": "papaya diced", "amount": "1 cup"},
+      {"ingredient": "Greek yogurt full-fat", "amount": "3/4 cup"},
+      {"ingredient": "mixed nuts chopped", "amount": "2 tbsp"},
+      {"ingredient": "honey", "amount": "1 tsp"},
+      {"ingredient": "chia seeds", "amount": "1 tsp"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Gluten-Free Toast with Ricotta and Honey",
+    "ingredients": [
+      {"ingredient": "gluten-free bread", "amount": "2 slices"},
+      {"ingredient": "ricotta cheese", "amount": "1/3 cup"},
+      {"ingredient": "honey", "amount": "1 tbsp"},
+      {"ingredient": "sliced almonds", "amount": "1 tbsp"},
+      {"ingredient": "cinnamon", "amount": "a pinch"}
+    ]
+  },
+  {
+    "meal_type": "breakfast",
+    "name": "Sweet Potato and Chickpea Breakfast Bowl",
+    "ingredients": [
+      {"ingredient": "sweet potato diced and roasted", "amount": "100g"},
+      {"ingredient": "chickpeas cooked", "amount": "1/2 cup"},
+      {"ingredient": "poached eggs", "amount": "2"},
+      {"ingredient": "spinach sautéed", "amount": "1 cup"},
+      {"ingredient": "olive oil", "amount": "1 tsp"},
+      {"ingredient": "paprika", "amount": "1/4 tsp"},
+      {"ingredient": "salt", "amount": "to taste"}
+    ]
+  }
+]

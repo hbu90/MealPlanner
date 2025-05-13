@@ -34,6 +34,8 @@ class MealPlannerCrew:
             for meal_type in MEAL_TYPES
         ]
 
+        aggregate_task = tasks.aggregate_meal_ideas_task(meal_idea_agent)
+
         nutrition_value_task = tasks.nutrition_value_task(
             nutrition_agent, meal_generation_tasks
         )
@@ -46,7 +48,7 @@ class MealPlannerCrew:
 
         crew = Crew(
             agents=[meal_idea_agent, nutrition_agent, meal_planning_agent, frontend_agent],
-            tasks=meal_generation_tasks + [nutrition_value_task, meal_planning_task, reporting_task],
+            tasks=meal_generation_tasks + [aggregate_task, nutrition_value_task, meal_planning_task, reporting_task],
             process=Process.sequential,
             verbose=True,
         )
