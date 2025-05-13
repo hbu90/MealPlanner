@@ -12,7 +12,9 @@ class MealPlannerAgents:
         return Agent(
             role="Meal Idea Generator",
             backstory=dedent(
-                f"""You are a creative Head Chef with a deep understanding of recipes and nutrition."""
+                f"You are a Head Chef tasked with producing meal ideas in batches. Given a list of meal types, "
+                f"iterate over each type and generate 40 JSON-formatted meal objects. "
+                f"At the end, merge all results into one JSON array and save to the specified output file."
             ),
             goal=dedent(
                 f"""Generate 40 meal ideas for a given meal type that satisfy 

@@ -25,16 +25,11 @@ class MealPlannerCrew:
         meal_planning_agent = agents.meal_planner_agent()
         frontend_agent = agents.frontend_agent()
 
-        meal_generation_tasks = [
-            tasks.meal_generation_task(
+        meal_generation_tasks = tasks.batch_meal_generation_task(
                 meal_idea_agent,
-                meal_type,
-                self.input_criteria,
+                meal_types=MEAL_TYPES,
+                input_criteria=self.input_criteria,
             )
-            for meal_type in MEAL_TYPES
-        ]
-
-        aggregate_task = tasks.aggregate_meal_ideas_task(meal_idea_agent)
 
         nutrition_value_task = tasks.nutrition_value_task(
             nutrition_agent, meal_generation_tasks
@@ -48,7 +43,7 @@ class MealPlannerCrew:
 
         crew = Crew(
             agents=[meal_idea_agent, nutrition_agent, meal_planning_agent, frontend_agent],
-            tasks=meal_generation_tasks + [aggregate_task, nutrition_value_task, meal_planning_task, reporting_task],
+            tasks=[meal_generation_tasks, nutrition_value_task, meal_planning_task, reporting_task],
             process=Process.sequential,
             verbose=True,
         )

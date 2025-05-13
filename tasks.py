@@ -13,34 +13,28 @@ class MealPlannerTasks:
     def __tip_section(self):
         return "If you do your BEST WORK, I'll give you a $10,000 commission!"
 
-    def meal_generation_task(self, agent, meal_type, input_criteria):
+    def batch_meal_generation_task(self, agent, meal_types, input_criteria):
         return Task(
-            description=dedent(
-                f"""
-            {self.__tip_section()}
+            description=dedent(f"""
+                {self.__tip_section()}
 
-            Generate 40 unique {meal_type} meal ideas that meet the {input_criteria}. 
-            **Each meal must contain between {PER_MEAL_CALORIE[meal_type][0]} and \
-            {PER_MEAL_CALORIE[meal_type][1]} calories.**  
-            Note that dietary requirements should be met and any food exclusions mentioned should not be used. 
-            For each idea, list ingredients with precise amounts, for one portion.
-        """
-            ),
-            expected_output="A JSON array of 40 meal objects, each with the meal type, name, ingredients, and amounts.",
-            agent=agent,
-            async_execution=True,
-            output_file=f"./meal_output_files/meal_ideas_{meal_type}.json",
-        )
+                You will generate 40 unique meal ideas **for each** of the following meal types:
+                {', '.join(meal_types)}.  
 
-    def aggregate_meal_ideas_task(self, agent):
-        return Task(
-            description="""
-                Read ./meal_output_files/meal_ideas_breakfast.json, lunch, dinner, snack;
-                concatenate into one JSON array and write to ./meal_output_files/all_meal_ideas.json
-            """,
-            expected_output="A single JSON array of all meal ideas.",
+                Requirements for **each** meal idea:
+                - Calories between {PER_MEAL_CALORIE['breakfast'][0]}–{PER_MEAL_CALORIE['breakfast'][1]} 
+                (use the appropriate range for each type)  .
+                - Meet the dietary requirements and exclusions: {input_criteria}  
+                - List ingredients with precise amounts for one portion.
+
+                **Instruction:**  
+                1. For each meal type in that list, produce a sub‐array of 40 JSON objects  
+                2. Merge all sub‐arrays into one top‐level JSON array  
+                3. Write the combined JSON array to `./meal_output_files/all_meal_ideas.json`
+            """),
+            expected_output="A single JSON array of 160 meal objects (40 per type), written to all_meal_ideas.json",
             agent=agent,
-            context=[],
+            async_execution=False,  # run as one job
             output_file="./meal_output_files/all_meal_ideas.json",
         )
 
@@ -59,7 +53,7 @@ class MealPlannerTasks:
             ),
             expected_output="An updated JSON array that contains the total nutritional values.",
             agent=agent,
-            context=meal_plan_task,
+            context=[meal_plan_task],
             output_file="./meal_output_files/meal_ideas_with_cals.json",
         )
 
