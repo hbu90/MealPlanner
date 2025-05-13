@@ -1,0 +1,253 @@
+{
+  "Monday": {
+    "breakfast": {
+      "name": "Gluten-Free Veggie Omelette",
+      "scale_factor": 1.3,
+      "calories": 624,
+      "protein_g": 39,
+      "fat_g": 48.1,
+      "carbohydrates_g": 11.7,
+      "sugars_g": 6.5,
+      "saturated_fat_g": 19.5
+    },
+    "lunch": {
+      "name": "Grilled Chicken Quinoa Salad",
+      "scale_factor": 1.6,
+      "calories": 869,
+      "protein_g": 70.4,
+      "fat_g": 41.6,
+      "carbohydrates_g": 48,
+      "sugars_g": 9.6,
+      "saturated_fat_g": 11.2
+    },
+    "dinner": {
+      "name": "Baked Salmon with Roasted Vegetables",
+      "scale_factor": 1.4,
+      "calories": 777,
+      "protein_g": 53.2,
+      "fat_g": 53.2,
+      "carbohydrates_g": 21,
+      "sugars_g": 12.6,
+      "saturated_fat_g": 9.8
+    },
+    "snacks": [
+      {
+        "name": "Greek Yogurt with Honey and Almonds",
+        "calories": 330,
+        "protein_g": 25,
+        "fat_g": 15,
+        "carbohydrates_g": 30,
+        "sugars_g": 20,
+        "saturated_fat_g": 3
+      }
+    ]
+  },
+  "Tuesday": {
+    "breakfast": {
+      "name": "Gluten-Free Veggie Omelette",
+      "scale_factor": 1.3,
+      "calories": 624,
+      "protein_g": 39,
+      "fat_g": 48.1,
+      "carbohydrates_g": 11.7,
+      "sugars_g": 6.5,
+      "saturated_fat_g": 19.5
+    },
+    "lunch": {
+      "name": "Turkey Lettuce Wraps with Avocado",
+      "scale_factor": 1.8,
+      "calories": 781,
+      "protein_g": 57.6,
+      "fat_g": 52.2,
+      "carbohydrates_g": 21.6,
+      "sugars_g": 9,
+      "saturated_fat_g": 10.8
+    },
+    "dinner": {
+      "name": "Chicken and Broccoli Rice Bowl",
+      "scale_factor": 1.7,
+      "calories": 867,
+      "protein_g": 76.5,
+      "fat_g": 25.5,
+      "carbohydrates_g": 68,
+      "sugars_g": 6.8,
+      "saturated_fat_g": 5.1
+    },
+    "snacks": [
+      {
+        "name": "Mixed Nuts",
+        "calories": 330,
+        "protein_g": 10,
+        "fat_g": 28,
+        "carbohydrates_g": 10,
+        "sugars_g": 3,
+        "saturated_fat_g": 4
+      }
+    ]
+  },
+  "Wednesday": {
+    "breakfast": {
+      "name": "Gluten-Free Veggie Omelette",
+      "scale_factor": 1.3,
+      "calories": 624,
+      "protein_g": 39,
+      "fat_g": 48.1,
+      "carbohydrates_g": 11.7,
+      "sugars_g": 6.5,
+      "saturated_fat_g": 19.5
+    },
+    "lunch": {
+      "name": "Beef and Sweet Potato Bowl",
+      "scale_factor": 1.6,
+      "calories": 832,
+      "protein_g": 57.6,
+      "fat_g": 44.8,
+      "carbohydrates_g": 51.2,
+      "sugars_g": 12.8,
+      "saturated_fat_g": 16
+    },
+    "dinner": {
+      "name": "Shrimp and Avocado Salad",
+      "scale_factor": 1.6,
+      "calories": 736,
+      "protein_g": 56,
+      "fat_g": 51.2,
+      "carbohydrates_g": 22.4,
+      "sugars_g": 9.6,
+      "saturated_fat_g": 8
+    },
+    "snacks": []
+  },
+  "Thursday": {
+    "breakfast": {
+      "name": "Gluten-Free Veggie Omelette",
+      "scale_factor": 1.3,
+      "calories": 624,
+      "protein_g": 39,
+      "fat_g": 48.1,
+      "carbohydrates_g": 11.7,
+      "sugars_g": 6.5,
+      "saturated_fat_g": 19.5
+    },
+    "lunch": {
+      "name": "Chicken and Avocado Quinoa Bowl",
+      "scale_factor": 1.6,
+      "calories": 928,
+      "protein_g": 70.4,
+      "fat_g": 51.2,
+      "carbohydrates_g": 49.6,
+      "sugars_g": 9.6,
+      "saturated_fat_g": 11.2
+    },
+    "dinner": {
+      "name": "Turkey and Sweet Potato Hash",
+      "scale_factor": 1.6,
+      "calories": 800,
+      "protein_g": 60.8,
+      "fat_g": 35.2,
+      "carbohydrates_g": 56,
+      "sugars_g": 14.4,
+      "saturated_fat_g": 8
+    },
+    "snacks": []
+  },
+  "Friday": {
+    "breakfast": {
+      "name": "Gluten-Free Veggie Omelette",
+      "scale_factor": 1.3,
+      "calories": 624,
+      "protein_g": 39,
+      "fat_g": 48.1,
+      "carbohydrates_g": 11.7,
+      "sugars_g": 6.5,
+      "saturated_fat_g": 19.5
+    },
+    "lunch": {
+      "name": "Grilled Steak with Asparagus and Sweet Potato",
+      "scale_factor": 1.6,
+      "calories": 912,
+      "protein_g": 72,
+      "fat_g": 44.8,
+      "carbohydrates_g": 56,
+      "sugars_g": 12.8,
+      "saturated_fat_g": 16
+    },
+    "dinner": {
+      "name": "Chicken and Vegetable Stir-fry",
+      "scale_factor": 1.6,
+      "calories": 688,
+      "protein_g": 70.4,
+      "fat_g": 32,
+      "carbohydrates_g": 24,
+      "sugars_g": 11.2,
+      "saturated_fat_g": 6.4
+    },
+    "snacks": []
+  },
+  "Saturday": {
+    "breakfast": {
+      "name": "Gluten-Free Veggie Omelette",
+      "scale_factor": 1.3,
+      "calories": 624,
+      "protein_g": 39,
+      "fat_g": 48.1,
+      "carbohydrates_g": 11.7,
+      "sugars_g": 6.5,
+      "saturated_fat_g": 19.5
+    },
+    "lunch": {
+      "name": "Chicken and Zucchini Noodles",
+      "scale_factor": 1.8,
+      "calories": 828,
+      "protein_g": 79.2,
+      "fat_g": 36,
+      "carbohydrates_g": 27,
+      "sugars_g": 12.6,
+      "saturated_fat_g": 7.2
+    },
+    "dinner": {
+      "name": "Shrimp and Mango Salad",
+      "scale_factor": 1.8,
+      "calories": 738,
+      "protein_g": 63,
+      "fat_g": 32.4,
+      "carbohydrates_g": 46.8,
+      "sugars_g": 36,
+      "saturated_fat_g": 5.4
+    },
+    "snacks": []
+  },
+  "Sunday": {
+    "breakfast": {
+      "name": "Gluten-Free Veggie Omelette",
+      "scale_factor": 1.3,
+      "calories": 624,
+      "protein_g": 39,
+      "fat_g": 48.1,
+      "carbohydrates_g": 11.7,
+      "sugars_g": 6.5,
+      "saturated_fat_g": 19.5
+    },
+    "lunch": {
+      "name": "Turkey Meatballs with Cauliflower Mash",
+      "scale_factor": 1.8,
+      "calories": 864,
+      "protein_g": 75.6,
+      "fat_g": 46.8,
+      "carbohydrates_g": 27,
+      "sugars_g": 10.8,
+      "saturated_fat_g": 10.8
+    },
+    "dinner": {
+      "name": "Shrimp and Avocado Lettuce Wraps",
+      "scale_factor": 1.8,
+      "calories": 828,
+      "protein_g": 63,
+      "fat_g": 57.6,
+      "carbohydrates_g": 21.6,
+      "sugars_g": 10.8,
+      "saturated_fat_g": 9
+    },
+    "snacks": []
+  }
+}

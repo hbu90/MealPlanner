@@ -1,0 +1,613 @@
+[
+  {
+    "mealType": "lunch",
+    "name": "Grilled Chicken Quinoa Salad",
+    "ingredients": {
+      "Chicken breast": "150g",
+      "Quinoa (cooked)": "100g",
+      "Cherry tomatoes": "50g",
+      "Cucumber": "50g",
+      "Avocado": "50g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Fresh parsley": "5g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Beef and Sweet Potato Stir-fry",
+    "ingredients": {
+      "Lean beef strips": "150g",
+      "Sweet potato (cubed)": "150g",
+      "Bell peppers (mixed colors)": "80g",
+      "Onion": "50g",
+      "Garlic (minced)": "1 clove",
+      "Olive oil": "1 tbsp",
+      "Tamari (gluten-free soy sauce)": "1 tbsp",
+      "Ginger (grated)": "1 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Turkey Lettuce Wraps with Avocado",
+    "ingredients": {
+      "Ground turkey": "150g",
+      "Butter lettuce leaves": "6 leaves",
+      "Avocado": "70g",
+      "Red bell pepper": "50g",
+      "Carrot (shredded)": "40g",
+      "Olive oil": "1 tbsp",
+      "Garlic powder": "1/2 tsp",
+      "Onion powder": "1/2 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Salmon and Asparagus with Brown Rice",
+    "ingredients": {
+      "Salmon fillet": "150g",
+      "Asparagus": "100g",
+      "Brown rice (cooked)": "100g",
+      "Olive oil": "1 tbsp",
+      "Lemon zest": "1 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Dill (fresh)": "5g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Chickpea and Spinach Curry",
+    "ingredients": {
+      "Canned chickpeas (drained)": "150g",
+      "Fresh spinach": "100g",
+      "Coconut milk (light)": "100ml",
+      "Onion": "50g",
+      "Garlic (minced)": "1 clove",
+      "Ginger (grated)": "1 tsp",
+      "Olive oil": "1 tbsp",
+      "Curry powder": "1 tbsp",
+      "Salt": "to taste",
+      "Cilantro (fresh)": "5g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Shrimp and Avocado Salad",
+    "ingredients": {
+      "Cooked shrimp": "150g",
+      "Avocado": "70g",
+      "Mixed salad greens": "80g",
+      "Cherry tomatoes": "50g",
+      "Cucumber": "50g",
+      "Olive oil": "1 tbsp",
+      "Lime juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Stuffed Bell Peppers with Ground Beef",
+    "ingredients": {
+      "Bell pepper (large)": "1 medium",
+      "Ground beef": "150g",
+      "Cooked white rice": "80g",
+      "Onion (chopped)": "40g",
+      "Tomato sauce (gluten-free)": "50ml",
+      "Olive oil": "1 tbsp",
+      "Garlic (minced)": "1 clove",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Parmesan cheese (grated)": "15g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Tuna and Avocado Rice Bowl",
+    "ingredients": {
+      "Canned tuna in water (drained)": "150g",
+      "Cooked brown rice": "100g",
+      "Avocado": "70g",
+      "Cucumber (diced)": "50g",
+      "Carrot (shredded)": "40g",
+      "Tamari (gluten-free soy sauce)": "1 tbsp",
+      "Sesame oil": "1 tsp",
+      "Green onions (chopped)": "10g",
+      "Salt": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Grilled Chicken and Zucchini Noodles",
+    "ingredients": {
+      "Chicken breast": "150g",
+      "Zucchini noodles": "150g",
+      "Cherry tomatoes": "50g",
+      "Olive oil": "1 tbsp",
+      "Garlic (minced)": "1 clove",
+      "Basil (fresh)": "5g",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Parmesan cheese (optional)": "10g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Quinoa and Black Bean Salad",
+    "ingredients": {
+      "Quinoa (cooked)": "100g",
+      "Black beans (cooked or canned, drained)": "120g",
+      "Corn kernels": "50g",
+      "Red bell pepper (diced)": "50g",
+      "Cilantro (fresh)": "5g",
+      "Lime juice": "1 tbsp",
+      "Olive oil": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Eggplant and Beef Ratatouille",
+    "ingredients": {
+      "Lean ground beef": "150g",
+      "Eggplant (cubed)": "100g",
+      "Zucchini (cubed)": "100g",
+      "Tomato paste": "50g",
+      "Onion (chopped)": "50g",
+      "Olive oil": "1 tbsp",
+      "Garlic (minced)": "1 clove",
+      "Thyme (fresh)": "2g",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Grilled Turkey Burger with Sweet Potato Fries",
+    "ingredients": {
+      "Ground turkey patty": "150g",
+      "Gluten-free burger bun": "1 medium",
+      "Lettuce leaf": "1 large",
+      "Tomato slices": "2 slices",
+      "Sweet potato (cut into fries)": "150g",
+      "Olive oil": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Spicy Chickpea and Avocado Wrap",
+    "ingredients": {
+      "Canned chickpeas (drained)": "150g",
+      "Avocado": "70g",
+      "Gluten-free tortilla": "1 medium",
+      "Red onion (sliced)": "30g",
+      "Lettuce leaves": "3 leaves",
+      "Sriracha sauce": "1 tsp",
+      "Olive oil": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Salmon and Kale Salad with Walnuts",
+    "ingredients": {
+      "Cooked salmon": "150g",
+      "Kale (chopped)": "100g",
+      "Walnuts (chopped)": "20g",
+      "Cherry tomatoes": "50g",
+      "Olive oil": "1 tbsp",
+      "Apple cider vinegar": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Chicken and Avocado Rice Paper Rolls",
+    "ingredients": {
+      "Cooked chicken breast (shredded)": "150g",
+      "Rice paper sheets": "2 sheets",
+      "Avocado (sliced)": "50g",
+      "Carrot (julienned)": "40g",
+      "Cucumber (julienned)": "40g",
+      "Fresh mint leaves": "5g",
+      "Rice vinegar": "1 tbsp",
+      "Salt": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Gluten-Free Pasta with Pesto and Cherry Tomatoes",
+    "ingredients": {
+      "Gluten-free pasta (cooked)": "100g",
+      "Cherry tomatoes": "50g",
+      "Basil pesto (gluten-free)": "2 tbsp",
+      "Parmesan cheese (grated)": "15g",
+      "Olive oil": "1 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Baked Cod with Roasted Vegetables",
+    "ingredients": {
+      "Cod fillet": "150g",
+      "Carrot (sliced)": "80g",
+      "Zucchini (sliced)": "80g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp",
+      "Garlic powder": "1/2 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Fresh parsley": "5g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Beef Taco Salad (Gluten-Free)",
+    "ingredients": {
+      "Ground beef": "150g",
+      "Mixed salad greens": "100g",
+      "Tomato (diced)": "50g",
+      "Avocado": "50g",
+      "Black olives (sliced)": "20g",
+      "Cheddar cheese (shredded)": "30g",
+      "Olive oil": "1 tbsp",
+      "Taco seasoning (gluten-free)": "1 tbsp",
+      "Salt": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Chicken and Broccoli Stir-fry",
+    "ingredients": {
+      "Chicken breast": "150g",
+      "Broccoli florets": "120g",
+      "Carrot (sliced)": "50g",
+      "Olive oil": "1 tbsp",
+      "Garlic (minced)": "1 clove",
+      "Tamari (gluten-free soy sauce)": "1 tbsp",
+      "Ginger (grated)": "1 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Sweet Potato and Black Bean Chili",
+    "ingredients": {
+      "Sweet potato (cubed)": "150g",
+      "Black beans (cooked or canned, drained)": "150g",
+      "Tomato sauce (gluten-free)": "100ml",
+      "Onion (chopped)": "50g",
+      "Garlic (minced)": "1 clove",
+      "Olive oil": "1 tbsp",
+      "Chili powder": "1 tbsp",
+      "Cumin": "1 tsp",
+      "Salt": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Grilled Shrimp and Mango Salad",
+    "ingredients": {
+      "Cooked shrimp": "150g",
+      "Mango (diced)": "80g",
+      "Mixed salad greens": "80g",
+      "Red bell pepper (sliced)": "50g",
+      "Olive oil": "1 tbsp",
+      "Lime juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Fresh cilantro": "5g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Chicken and Avocado Salad with Orange",
+    "ingredients": {
+      "Cooked chicken breast (shredded)": "150g",
+      "Avocado": "70g",
+      "Orange segments": "80g",
+      "Mixed salad greens": "80g",
+      "Olive oil": "1 tbsp",
+      "Balsamic vinegar": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Zucchini and Feta Frittata",
+    "ingredients": {
+      "Eggs": "3 large",
+      "Zucchini (grated)": "100g",
+      "Feta cheese (crumbled)": "50g",
+      "Olive oil": "1 tbsp",
+      "Onion (chopped)": "40g",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Fresh dill": "5g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Pork Tenderloin with Roasted Brussels Sprouts",
+    "ingredients": {
+      "Pork tenderloin (sliced)": "150g",
+      "Brussels sprouts (halved)": "150g",
+      "Olive oil": "1 tbsp",
+      "Garlic powder": "1/2 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Gluten-Free Veggie and Hummus Sandwich",
+    "ingredients": {
+      "Gluten-free bread slices": "2 medium",
+      "Hummus": "3 tbsp",
+      "Cucumber slices": "50g",
+      "Tomato slices": "50g",
+      "Spinach leaves": "30g",
+      "Olive oil": "1 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Grilled Salmon with Quinoa and Steamed Broccoli",
+    "ingredients": {
+      "Salmon fillet": "150g",
+      "Quinoa (cooked)": "100g",
+      "Broccoli florets": "100g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Turkey and Spinach Salad with Walnuts",
+    "ingredients": {
+      "Cooked turkey breast (sliced)": "150g",
+      "Fresh spinach": "100g",
+      "Walnuts (chopped)": "20g",
+      "Cherry tomatoes": "50g",
+      "Olive oil": "1 tbsp",
+      "Balsamic vinegar": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Beef and Vegetable Kebabs with Brown Rice",
+    "ingredients": {
+      "Lean beef cubes": "150g",
+      "Bell peppers": "80g",
+      "Onion": "50g",
+      "Zucchini (sliced)": "80g",
+      "Brown rice (cooked)": "100g",
+      "Olive oil": "1 tbsp",
+      "Garlic powder": "1/2 tsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Lentil and Roasted Vegetable Salad",
+    "ingredients": {
+      "Cooked lentils": "150g",
+      "Roasted carrots": "80g",
+      "Roasted zucchini": "80g",
+      "Red onion (roasted)": "40g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Fresh parsley": "5g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Chicken and Avocado Salad with Pumpkin Seeds",
+    "ingredients": {
+      "Cooked chicken breast (shredded)": "150g",
+      "Avocado": "70g",
+      "Mixed salad greens": "80g",
+      "Pumpkin seeds": "20g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Grilled Tuna Steak with Green Beans and Potatoes",
+    "ingredients": {
+      "Tuna steak": "150g",
+      "Green beans": "100g",
+      "Boiled potatoes (cubed)": "100g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Vegetable and Chickpea Stew",
+    "ingredients": {
+      "Canned chickpeas (drained)": "150g",
+      "Carrots (diced)": "80g",
+      "Celery (diced)": "50g",
+      "Tomato paste": "50g",
+      "Onion (chopped)": "50g",
+      "Olive oil": "1 tbsp",
+      "Garlic (minced)": "1 clove",
+      "Vegetable broth (gluten-free)": "100ml",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Paprika": "1 tsp"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Egg Salad with Gluten-Free Crackers",
+    "ingredients": {
+      "Hard boiled eggs": "3 large",
+      "Mayonnaise": "2 tbsp",
+      "Dijon mustard": "1 tsp",
+      "Chives (chopped)": "5g",
+      "Gluten-free crackers": "6 pieces",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Chicken Caesar Salad (Gluten-Free)",
+    "ingredients": {
+      "Cooked chicken breast (sliced)": "150g",
+      "Romaine lettuce": "100g",
+      "Parmesan cheese (shaved)": "20g",
+      "Gluten-free Caesar dressing": "2 tbsp",
+      "Olive oil": "1 tsp",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Grilled Vegetable and Goat Cheese Salad",
+    "ingredients": {
+      "Grilled zucchini": "80g",
+      "Grilled eggplant": "80g",
+      "Goat cheese": "50g",
+      "Mixed salad greens": "80g",
+      "Olive oil": "1 tbsp",
+      "Balsamic vinegar": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Asian Beef Salad with Cabbage and Carrots",
+    "ingredients": {
+      "Lean beef strips": "150g",
+      "Cabbage (shredded)": "100g",
+      "Carrot (shredded)": "50g",
+      "Green onions": "20g",
+      "Olive oil": "1 tbsp",
+      "Tamari (gluten-free soy sauce)": "1 tbsp",
+      "Sesame oil": "1 tsp",
+      "Lime juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Stuffed Zucchini Boats with Turkey and Tomato",
+    "ingredients": {
+      "Zucchini (halved and scooped)": "1 medium",
+      "Ground turkey": "150g",
+      "Tomato sauce (gluten-free)": "50ml",
+      "Onion (chopped)": "40g",
+      "Olive oil": "1 tbsp",
+      "Garlic (minced)": "1 clove",
+      "Parmesan cheese (grated)": "15g",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Gluten-Free Chicken and Vegetable Soup",
+    "ingredients": {
+      "Cooked chicken breast (shredded)": "150g",
+      "Carrots (diced)": "80g",
+      "Celery (diced)": "50g",
+      "Onion (chopped)": "50g",
+      "Chicken broth (gluten-free)": "250ml",
+      "Olive oil": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Thyme (fresh)": "2g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Roasted Turkey and Sweet Potato Bowl",
+    "ingredients": {
+      "Roasted turkey breast (sliced)": "150g",
+      "Roasted sweet potato cubes": "150g",
+      "Steamed green beans": "100g",
+      "Olive oil": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Shrimp and Avocado Lettuce Cups",
+    "ingredients": {
+      "Cooked shrimp": "150g",
+      "Avocado (diced)": "70g",
+      "Butter lettuce leaves": "6 leaves",
+      "Red bell pepper (diced)": "50g",
+      "Lime juice": "1 tbsp",
+      "Olive oil": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Gluten-Free Turkey Meatballs with Tomato Sauce",
+    "ingredients": {
+      "Ground turkey": "150g",
+      "Gluten-free breadcrumbs": "30g",
+      "Egg": "1 large",
+      "Garlic (minced)": "1 clove",
+      "Onion (chopped)": "40g",
+      "Tomato sauce (gluten-free)": "100ml",
+      "Olive oil": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste",
+      "Basil (fresh)": "5g"
+    }
+  },
+  {
+    "mealType": "lunch",
+    "name": "Grilled Chicken and Avocado Salad with Sunflower Seeds",
+    "ingredients": {
+      "Grilled chicken breast (sliced)": "150g",
+      "Avocado": "70g",
+      "Mixed salad greens": "80g",
+      "Sunflower seeds": "20g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp",
+      "Salt": "to taste",
+      "Black pepper": "to taste"
+    }
+  }
+]

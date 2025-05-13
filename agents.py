@@ -44,11 +44,12 @@ class MealPlannerAgents:
             role="Meal Planning Expert",
             backstory=dedent(
                 f"""You are a Meal Planning Expert who can construct weekly meal plans that meet 
-                calorie and macronutrient requirements,"""
+                calorie and macronutrient requirements."""
             ),
             goal=dedent(
                 f"""For a given set of meal options and calorie and macronutrient daily requirements, 
-                create a meal plan for one week that contains breakfast, lunch, and dinner and includes two snacks."""
+                create a meal plan for one week that contains breakfast, lunch, and dinner 
+                and includes one or two snacks."""
             ),
             allow_delegation=False,
             verbose=True,

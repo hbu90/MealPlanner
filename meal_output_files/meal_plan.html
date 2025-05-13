@@ -1,0 +1,261 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Weekly Meal Plan Report</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  .day {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 4px;
+  }
+  h3 {
+    color: #34495e;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .meal {
+    margin-bottom: 20px;
+  }
+  .meal-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 4px;
+    color: #16a085;
+  }
+  .ingredients {
+    margin-left: 20px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+  }
+  th, td {
+    border: 1px solid #bdc3c7;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #ecf0f1;
+  }
+  .snacks {
+    margin-left: 20px;
+  }
+</style>
+</head>
+<body>
+<h1>Weekly Meal Plan Report</h1>
+
+<div class="day" id="monday">
+<h2>Monday</h2>
+
+<div class="meal" id="monday-breakfast">
+<h3>Breakfast: Gluten-Free Veggie Omelette</h3>
+<p><strong>Scale Factor:</strong> 1.3</p>
+<p><strong>Nutritional Values:</strong> Calories: 624 kcal, Protein: 39 g, Fats: 48.1 g, Carbohydrates: 11.7 g, Sugars: 6.5 g, Saturated Fats: 19.5 g</p>
+</div>
+
+<div class="meal" id="monday-lunch">
+<h3>Lunch: Grilled Chicken Quinoa Salad</h3>
+<p><strong>Scale Factor:</strong> 1.6</p>
+<p><strong>Nutritional Values:</strong> Calories: 869 kcal, Protein: 70.4 g, Fats: 41.6 g, Carbohydrates: 48 g, Sugars: 9.6 g, Saturated Fats: 11.2 g</p>
+</div>
+
+<div class="meal" id="monday-dinner">
+<h3>Dinner: Baked Salmon with Roasted Vegetables</h3>
+<p><strong>Scale Factor:</strong> 1.4</p>
+<p><strong>Nutritional Values:</strong> Calories: 777 kcal, Protein: 53.2 g, Fats: 53.2 g, Carbohydrates: 21 g, Sugars: 12.6 g, Saturated Fats: 9.8 g</p>
+</div>
+
+<div class="snacks" id="monday-snacks">
+<h3>Snacks</h3>
+<div class="meal" id="snack1">
+<h4>Greek Yogurt with Honey and Almonds</h4>
+<p><strong>Nutritional Values:</strong> Calories: 330 kcal, Protein: 25 g, Fats: 15 g, Carbohydrates: 30 g, Sugars: 20 g, Saturated Fats: 3 g</p>
+</div>
+</div>
+
+</div>
+
+<div class="day" id="tuesday">
+<h2>Tuesday</h2>
+
+<div class="meal" id="tuesday-breakfast">
+<h3>Breakfast: Gluten-Free Veggie Omelette</h3>
+<p><strong>Scale Factor:</strong> 1.3</p>
+<p><strong>Nutritional Values:</strong> Calories: 624 kcal, Protein: 39 g, Fats: 48.1 g, Carbohydrates: 11.7 g, Sugars: 6.5 g, Saturated Fats: 19.5 g</p>
+</div>
+
+<div class="meal" id="tuesday-lunch">
+<h3>Lunch: Turkey Lettuce Wraps with Avocado</h3>
+<p><strong>Scale Factor:</strong> 1.8</p>
+<p><strong>Nutritional Values:</strong> Calories: 781 kcal, Protein: 57.6 g, Fats: 52.2 g, Carbohydrates: 21.6 g, Sugars: 9 g, Saturated Fats: 10.8 g</p>
+</div>
+
+<div class="meal" id="tuesday-dinner">
+<h3>Dinner: Chicken and Broccoli Rice Bowl</h3>
+<p><strong>Scale Factor:</strong> 1.7</p>
+<p><strong>Nutritional Values:</strong> Calories: 867 kcal, Protein: 76.5 g, Fats: 25.5 g, Carbohydrates: 68 g, Sugars: 6.8 g, Saturated Fats: 5.1 g</p>
+</div>
+
+<div class="snacks" id="tuesday-snacks">
+<h3>Snacks</h3>
+<div class="meal" id="snack1">
+<h4>Mixed Nuts</h4>
+<p><strong>Nutritional Values:</strong> Calories: 330 kcal, Protein: 10 g, Fats: 28 g, Carbohydrates: 10 g, Sugars: 3 g, Saturated Fats: 4 g</p>
+</div>
+</div>
+
+</div>
+
+<div class="day" id="wednesday">
+<h2>Wednesday</h2>
+
+<div class="meal" id="wednesday-breakfast">
+<h3>Breakfast: Gluten-Free Veggie Omelette</h3>
+<p><strong>Scale Factor:</strong> 1.3</p>
+<p><strong>Nutritional Values:</strong> Calories: 624 kcal, Protein: 39 g, Fats: 48.1 g, Carbohydrates: 11.7 g, Sugars: 6.5 g, Saturated Fats: 19.5 g</p>
+</div>
+
+<div class="meal" id="wednesday-lunch">
+<h3>Lunch: Beef and Sweet Potato Bowl</h3>
+<p><strong>Scale Factor:</strong> 1.6</p>
+<p><strong>Nutritional Values:</strong> Calories: 832 kcal, Protein: 57.6 g, Fats: 44.8 g, Carbohydrates: 51.2 g, Sugars: 12.8 g, Saturated Fats: 16 g</p>
+</div>
+
+<div class="meal" id="wednesday-dinner">
+<h3>Dinner: Shrimp and Avocado Salad</h3>
+<p><strong>Scale Factor:</strong> 1.6</p>
+<p><strong>Nutritional Values:</strong> Calories: 736 kcal, Protein: 56 g, Fats: 51.2 g, Carbohydrates: 22.4 g, Sugars: 9.6 g, Saturated Fats: 8 g</p>
+</div>
+
+<div class="snacks" id="wednesday-snacks">
+<h3>Snacks</h3>
+<!-- No snacks for Wednesday -->
+</div>
+
+</div>
+
+<div class="day" id="thursday">
+<h2>Thursday</h2>
+
+<div class="meal" id="thursday-breakfast">
+<h3>Breakfast: Gluten-Free Veggie Omelette</h3>
+<p><strong>Scale Factor:</strong> 1.3</p>
+<p><strong>Nutritional Values:</strong> Calories: 624 kcal, Protein: 39 g, Fats: 48.1 g, Carbohydrates: 11.7 g, Sugars: 6.5 g, Saturated Fats: 19.5 g</p>
+</div>
+
+<div class="meal" id="thursday-lunch">
+<h3>Lunch: Chicken and Avocado Quinoa Bowl</h3>
+<p><strong>Scale Factor:</strong> 1.6</p>
+<p><strong>Nutritional Values:</strong> Calories: 928 kcal, Protein: 70.4 g, Fats: 51.2 g, Carbohydrates: 49.6 g, Sugars: 9.6 g, Saturated Fats: 11.2 g</p>
+</div>
+
+<div class="meal" id="thursday-dinner">
+<h3>Dinner: Turkey and Sweet Potato Hash</h3>
+<p><strong>Scale Factor:</strong> 1.6</p>
+<p><strong>Nutritional Values:</strong> Calories: 800 kcal, Protein: 60.8 g, Fats: 35.2 g, Carbohydrates: 56 g, Sugars: 14.4 g, Saturated Fats: 8 g</p>
+</div>
+
+<!-- No snacks for Thursday -->
+
+</div>
+
+<div class="day" id="friday">
+<h2>Friday</h2>
+
+<div class="meal" id="friday-breakfast">
+<h3>Breakfast: Gluten-Free Veggie Omelette</h3>
+<p><strong>Scale Factor:</strong> 1.3</p>
+<p><strong>Nutritional Values:</strong> Calories: 624 kcal, Protein: 39 g, Fats: 48.1 g, Carbohydrates: 11.7 g, Sugars: 6.5 g, Saturated Fats: 19.5 g</p>
+</div>
+
+<div class="meal" id="friday-lunch">
+<h3>Lunch: Grilled Steak with Asparagus and Sweet Potato</h3>
+<p><strong>Scale Factor:</strong> 1.6</p>
+<p><strong>Nutritional Values:</strong> Calories: 912 kcal, Protein: 72 g, Fats: 44.8 g, Carbohydrates: 56 g, Sugars: 12.8 g, Saturated Fats: 16 g</p>
+</div>
+
+<div class="meal" id="friday-dinner">
+<h3>Dinner: Chicken and Vegetable Stir-fry</h3>
+<p><strong>Scale Factor:</strong> 1.6</p>
+<p><strong>Nutritional Values:</strong> Calories: 688 kcal, Protein: 70.4 g, Fats: 32 g, Carbohydrates: 24 g, Sugars: 11.2 g, Saturated Fats: 6.4 g</p>
+</div>
+
+<!-- No snacks for Friday -->
+
+</div>
+
+<div class="day" id="saturday">
+<h2>Saturday</h2>
+
+<div class="meal" id="saturday-breakfast">
+<h3>Breakfast: Gluten-Free Veggie Omelette</h3>
+<p><strong>Scale Factor:</strong> 1.3</p>
+<p><strong>Nutritional Values:</strong> Calories: 624 kcal, Protein: 39 g, Fats: 48.1 g, Carbohydrates: 11.7 g, Sugars: 6.5 g, Saturated Fats: 19.5 g</p>
+</div>
+
+<div class="meal" id="saturday-lunch">
+<h3>Lunch: Chicken and Zucchini Noodles</h3>
+<p><strong>Scale Factor:</strong> 1.8</p>
+<p><strong>Nutritional Values:</strong> Calories: 828 kcal, Protein: 79.2 g, Fats: 36 g, Carbohydrates: 27 g, Sugars: 12.6 g, Saturated Fats: 7.2 g</p>
+</div>
+
+<div class="meal" id="saturday-dinner">
+<h3>Dinner: Shrimp and Mango Salad</h3>
+<p><strong>Scale Factor:</strong> 1.8</p>
+<p><strong>Nutritional Values:</strong> Calories: 738 kcal, Protein: 63 g, Fats: 32.4 g, Carbohydrates: 46.8 g, Sugars: 36 g, Saturated Fats: 5.4 g</p>
+</div>
+
+<!-- No snacks for Saturday -->
+
+</div>
+
+<div class="day" id="sunday">
+<h2>Sunday</h2>
+
+<div class="meal" id="sunday-breakfast">
+<h3>Breakfast: Gluten-Free Veggie Omelette</h3>
+<p><strong>Scale Factor:</strong> 1.3</p>
+<p><strong>Nutritional Values:</strong> Calories: 624 kcal, Protein: 39 g, Fats: 48.1 g, Carbohydrates: 11.7 g, Sugars: 6.5 g, Saturated Fats: 19.5 g</p>
+</div>
+
+<div class="meal" id="sunday-lunch">
+<h3>Lunch: Turkey Meatballs with Cauliflower Mash</h3>
+<p><strong>Scale Factor:</strong> 1.8</p>
+<p><strong>Nutritional Values:</strong> Calories: 864 kcal, Protein: 75.6 g, Fats: 46.8 g, Carbohydrates: 27 g, Sugars: 10.8 g, Saturated Fats: 10.8 g</p>
+</div>
+
+<div class="meal" id="sunday-dinner">
+<h3>Dinner: Shrimp and Avocado Lettuce Wraps</h3>
+<p><strong>Scale Factor:</strong> 1.8</p>
+<p><strong>Nutritional Values:</strong> Calories: 828 kcal, Protein: 63 g, Fats: 57.6 g, Carbohydrates: 21.6 g, Sugars: 10.8 g, Saturated Fats: 9 g</p>
+</div>
+
+<!-- No snacks for Sunday -->
+
+</div>
+
+</body>
+</html>
+```

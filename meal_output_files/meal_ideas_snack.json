@@ -1,0 +1,386 @@
+[
+  {
+    "meal_type": "snack",
+    "name": "Greek Yogurt with Honey and Walnuts",
+    "ingredients": {
+      "Greek yogurt (full fat)": "150g",
+      "Honey": "1 tbsp (21g)",
+      "Walnuts (chopped)": "15g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Rice Cakes with Avocado and Cherry Tomatoes",
+    "ingredients": {
+      "Rice cakes (gluten-free)": "2 cakes",
+      "Avocado (mashed)": "70g",
+      "Cherry tomatoes (halved)": "50g",
+      "Olive oil": "1 tsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Almond Butter and Banana on Gluten-Free Crackers",
+    "ingredients": {
+      "Gluten-free crackers": "5 crackers",
+      "Almond butter": "2 tbsp (32g)",
+      "Banana (sliced)": "70g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Cottage Cheese with Pineapple",
+    "ingredients": {
+      "Cottage cheese (2% fat)": "150g",
+      "Pineapple chunks": "100g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Carrot and Cucumber Sticks with Hummus",
+    "ingredients": {
+      "Carrot sticks": "80g",
+      "Cucumber sticks": "80g",
+      "Hummus": "50g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Chia Seed Pudding with Mixed Berries",
+    "ingredients": {
+      "Chia seeds": "25g",
+      "Almond milk (unsweetened)": "150ml",
+      "Mixed berries": "70g",
+      "Maple syrup": "1 tsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Boiled Eggs and Baby Carrots",
+    "ingredients": {
+      "Boiled eggs": "2 large",
+      "Baby carrots": "100g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Apple Slices with Peanut Butter",
+    "ingredients": {
+      "Apple (medium, sliced)": "1 medium (182g)",
+      "Peanut butter": "2 tbsp (32g)"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Gluten-Free Granola with Almond Milk",
+    "ingredients": {
+      "Gluten-free granola": "40g",
+      "Almond milk (unsweetened)": "150ml"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Turkey and Cheese Roll-Ups",
+    "ingredients": {
+      "Sliced turkey breast (deli, gluten-free)": "80g",
+      "Cheddar cheese slices": "30g",
+      "Lettuce leaves": "2 leaves"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Smoothie with Spinach, Banana, and Almond Butter",
+    "ingredients": {
+      "Fresh spinach": "30g",
+      "Banana": "1 small (90g)",
+      "Almond butter": "1 tbsp (16g)",
+      "Unsweetened almond milk": "150ml"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Edamame Beans with Sea Salt",
+    "ingredients": {
+      "Edamame beans (shelled)": "120g",
+      "Sea salt": "1/4 tsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Rice Paper Rolls with Shrimp and Veggies",
+    "ingredients": {
+      "Rice paper": "2 sheets",
+      "Cooked shrimp (peeled)": "80g",
+      "Julienned carrot": "40g",
+      "Julienned cucumber": "40g",
+      "Fresh mint leaves": "5g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Mixed Nuts and Dried Fruit",
+    "ingredients": {
+      "Almonds": "15g",
+      "Cashews": "15g",
+      "Dried cranberries": "20g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Baked Sweet Potato Fries with Guacamole",
+    "ingredients": {
+      "Sweet potato": "150g",
+      "Olive oil": "1 tsp",
+      "Guacamole": "50g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Cucumber and Smoked Salmon Bites",
+    "ingredients": {
+      "Cucumber slices": "100g",
+      "Smoked salmon": "60g",
+      "Cream cheese (softened)": "30g",
+      "Dill (fresh)": "1 tsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Pumpkin Seeds and Dark Chocolate",
+    "ingredients": {
+      "Pumpkin seeds": "30g",
+      "Dark chocolate (70% cacao)": "20g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Chickpea Salad with Lemon Dressing",
+    "ingredients": {
+      "Canned chickpeas (rinsed and drained)": "100g",
+      "Cherry tomatoes (halved)": "50g",
+      "Red onion (minced)": "10g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp",
+      "Parsley (chopped)": "5g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Hard-Boiled Egg with Avocado Slices",
+    "ingredients": {
+      "Hard-boiled egg": "1 large",
+      "Avocado slices": "70g",
+      "Black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Peach Slices with Ricotta Cheese",
+    "ingredients": {
+      "Fresh peach slices": "120g",
+      "Ricotta cheese": "60g",
+      "Honey": "1 tsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Celery Sticks with Sunflower Seed Butter",
+    "ingredients": {
+      "Celery sticks": "120g",
+      "Sunflower seed butter": "2 tbsp (32g)"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Quinoa Salad with Cucumber and Feta",
+    "ingredients": {
+      "Cooked quinoa": "80g",
+      "Cucumber (diced)": "50g",
+      "Feta cheese (crumbled)": "30g",
+      "Olive oil": "1 tbsp",
+      "Lemon juice": "1 tbsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Orange and Almonds",
+    "ingredients": {
+      "Orange (medium)": "1 medium (130g)",
+      "Almonds": "25g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Gluten-Free Oatmeal with Berries",
+    "ingredients": {
+      "Gluten-free rolled oats": "30g",
+      "Water": "120ml",
+      "Mixed berries": "60g",
+      "Honey": "1 tsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Turkey Jerky and Baby Carrots",
+    "ingredients": {
+      "Turkey jerky (gluten-free)": "50g",
+      "Baby carrots": "80g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Avocado and Tomato Salsa with Gluten-Free Tortilla Chips",
+    "ingredients": {
+      "Avocado (diced)": "70g",
+      "Tomato (diced)": "50g",
+      "Red onion (minced)": "10g",
+      "Cilantro (chopped)": "5g",
+      "Lime juice": "1 tbsp",
+      "Gluten-free tortilla chips": "30g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Cottage Cheese and Sliced Peppers",
+    "ingredients": {
+      "Cottage cheese (2% fat)": "150g",
+      "Red and yellow bell pepper slices": "80g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Banana and Chia Seed Energy Bites",
+    "ingredients": {
+      "Banana (mashed)": "60g",
+      "Chia seeds": "15g",
+      "Gluten-free rolled oats": "25g",
+      "Almond butter": "1 tbsp (16g)",
+      "Honey": "1 tsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Shrimp Ceviche with Avocado",
+    "ingredients": {
+      "Cooked shrimp (chopped)": "80g",
+      "Avocado (diced)": "60g",
+      "Lime juice": "1 tbsp",
+      "Red onion (minced)": "10g",
+      "Cilantro (chopped)": "5g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Mixed Berry and Almond Smoothie",
+    "ingredients": {
+      "Mixed berries": "100g",
+      "Almond milk (unsweetened)": "150ml",
+      "Almond butter": "1 tbsp (16g)",
+      "Chia seeds": "10g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Gluten-Free Toast with Ricotta and Fig Jam",
+    "ingredients": {
+      "Gluten-free bread (toasted)": "1 slice (40g)",
+      "Ricotta cheese": "50g",
+      "Fig jam": "1 tbsp (20g)"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Roasted Chickpeas with Paprika",
+    "ingredients": {
+      "Canned chickpeas (rinsed and drained)": "100g",
+      "Olive oil": "1 tsp",
+      "Paprika": "1/2 tsp",
+      "Salt": "to taste"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Hard-Boiled Egg and Avocado Toast on Gluten-Free Bread",
+    "ingredients": {
+      "Hard-boiled egg (sliced)": "1 large",
+      "Avocado (mashed)": "50g",
+      "Gluten-free bread (toasted)": "1 slice (40g)"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Cantaloupe and Prosciutto",
+    "ingredients": {
+      "Cantaloupe (sliced)": "150g",
+      "Prosciutto slices": "40g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Kale Chips with Nutritional Yeast",
+    "ingredients": {
+      "Kale leaves": "80g",
+      "Olive oil": "1 tsp",
+      "Nutritional yeast": "1 tbsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Peanut Butter and Celery Sticks",
+    "ingredients": {
+      "Celery sticks": "120g",
+      "Peanut butter": "2 tbsp (32g)"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Tuna Salad Lettuce Wraps",
+    "ingredients": {
+      "Canned tuna in water (drained)": "80g",
+      "Mayonnaise (gluten-free)": "1 tbsp",
+      "Celery (chopped)": "30g",
+      "Romaine lettuce leaves": "3 leaves"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Baked Apple with Cinnamon and Walnuts",
+    "ingredients": {
+      "Apple (medium, cored and sliced)": "1 medium (182g)",
+      "Cinnamon": "1/2 tsp",
+      "Walnuts (chopped)": "15g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Zucchini and Carrot Fritters with Yogurt Dip",
+    "ingredients": {
+      "Grated zucchini": "70g",
+      "Grated carrot": "70g",
+      "Egg": "1/2 large",
+      "Almond flour": "20g",
+      "Greek yogurt": "50g",
+      "Lemon juice": "1 tsp"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Sliced Pear with Blue Cheese and Walnuts",
+    "ingredients": {
+      "Pear slices": "120g",
+      "Blue cheese": "30g",
+      "Walnuts (chopped)": "10g"
+    }
+  },
+  {
+    "meal_type": "snack",
+    "name": "Cucumber and Avocado Gazpacho",
+    "ingredients": {
+      "Cucumber (peeled and chopped)": "100g",
+      "Avocado": "50g",
+      "Lime juice": "1 tbsp",
+      "Olive oil": "1 tsp",
+      "Fresh mint": "5g"
+    }
+  }
+]

@@ -1,0 +1,690 @@
+[
+  {
+    "meal_type": "dinner",
+    "name": "Grilled Lemon Herb Chicken with Quinoa Salad",
+    "ingredients": {
+      "chicken breast": "150g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "dried oregano": "1 tsp",
+      "quinoa (cooked)": "100g",
+      "cucumber (diced)": "50g",
+      "cherry tomatoes (halved)": "50g",
+      "red onion (finely chopped)": "20g",
+      "fresh parsley (chopped)": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Baked Salmon with Roasted Sweet Potatoes and Asparagus",
+    "ingredients": {
+      "salmon fillet": "150g",
+      "sweet potato (cubed)": "150g",
+      "asparagus spears": "100g",
+      "olive oil": "1.5 tbsp",
+      "lemon zest": "1 tsp",
+      "garlic powder": "0.5 tsp",
+      "paprika": "0.5 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Stuffed Bell Peppers with Ground Turkey and Rice",
+    "ingredients": {
+      "bell pepper (large)": "1",
+      "ground turkey": "120g",
+      "cooked white rice": "100g",
+      "onion (chopped)": "40g",
+      "tomato sauce": "60g",
+      "olive oil": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "cumin": "0.5 tsp",
+      "chili powder": "0.5 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Shrimp Stir-Fry with Vegetables and Cauliflower Rice",
+    "ingredients": {
+      "shrimp (peeled, deveined)": "150g",
+      "cauliflower rice": "150g",
+      "bell pepper (sliced)": "50g",
+      "broccoli florets": "50g",
+      "carrot (julienned)": "40g",
+      "soy sauce (gluten-free)": "1.5 tbsp",
+      "sesame oil": "1 tsp",
+      "ginger (grated)": "0.5 tsp",
+      "garlic (minced)": "1 clove",
+      "green onions (chopped)": "1 tbsp"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Beef and Vegetable Skewers with Brown Rice",
+    "ingredients": {
+      "beef sirloin (cubed)": "150g",
+      "zucchini (sliced)": "50g",
+      "red bell pepper (sliced)": "50g",
+      "red onion (quartered)": "40g",
+      "olive oil": "1 tbsp",
+      "dried thyme": "0.5 tsp",
+      "brown rice (cooked)": "100g",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Chicken Fajita Bowl with Guacamole and Black Beans",
+    "ingredients": {
+      "chicken breast (sliced)": "150g",
+      "olive oil": "1 tbsp",
+      "fajita seasoning (gluten-free)": "1 tbsp",
+      "bell pepper (sliced)": "60g",
+      "onion (sliced)": "40g",
+      "black beans (cooked)": "100g",
+      "guacamole": "50g",
+      "lime juice": "1 tsp"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Zucchini Noodles with Pesto and Grilled Chicken",
+    "ingredients": {
+      "zucchini noodles": "150g",
+      "grilled chicken breast": "150g",
+      "basil pesto (gluten-free)": "2 tbsp",
+      "cherry tomatoes": "50g",
+      "olive oil": "1 tsp",
+      "parmesan cheese (grated)": "1 tbsp"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Turkey Meatballs with Gluten-Free Spaghetti and Tomato Sauce",
+    "ingredients": {
+      "ground turkey": "150g",
+      "gluten-free spaghetti (dry)": "70g",
+      "egg": "1 small",
+      "parmesan cheese (grated)": "1 tbsp",
+      "gluten-free breadcrumbs": "15g",
+      "garlic (minced)": "1 clove",
+      "tomato sauce": "100g",
+      "olive oil": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Grilled Pork Chop with Roasted Brussels Sprouts and Mashed Potatoes",
+    "ingredients": {
+      "pork chop (boneless)": "150g",
+      "brussels sprouts (halved)": "100g",
+      "potatoes (peeled, cubed)": "150g",
+      "butter": "1 tbsp",
+      "milk (or dairy-free alternative)": "30ml",
+      "olive oil": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Seared Tuna Steak with Avocado Salad and Quinoa",
+    "ingredients": {
+      "tuna steak": "150g",
+      "quinoa (cooked)": "100g",
+      "avocado (diced)": "50g",
+      "cherry tomatoes (halved)": "40g",
+      "red onion (finely chopped)": "20g",
+      "olive oil": "1.5 tbsp",
+      "lemon juice": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Lentil and Vegetable Stew with Brown Rice",
+    "ingredients": {
+      "brown lentils (cooked)": "150g",
+      "carrot (diced)": "50g",
+      "celery (diced)": "40g",
+      "onion (chopped)": "40g",
+      "tomato paste": "1 tbsp",
+      "vegetable broth (gluten-free)": "200ml",
+      "olive oil": "1 tbsp",
+      "brown rice (cooked)": "100g",
+      "garlic (minced)": "1 clove",
+      "thyme (dried)": "0.5 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Grilled Lamb Chops with Mint Yogurt and Roasted Carrots",
+    "ingredients": {
+      "lamb chops": "150g",
+      "carrots (roasted)": "150g",
+      "plain Greek yogurt": "50g",
+      "fresh mint (chopped)": "1 tbsp",
+      "lemon juice": "1 tsp",
+      "olive oil": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Chicken and Avocado Salad with Citrus Dressing",
+    "ingredients": {
+      "grilled chicken breast (sliced)": "150g",
+      "mixed salad greens": "80g",
+      "avocado (sliced)": "50g",
+      "orange segments": "50g",
+      "red onion (thinly sliced)": "20g",
+      "olive oil": "1.5 tbsp",
+      "orange juice": "1 tbsp",
+      "apple cider vinegar": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Baked Cod with Tomato and Olive Salsa and Steamed Green Beans",
+    "ingredients": {
+      "cod fillet": "150g",
+      "tomato (diced)": "80g",
+      "black olives (sliced)": "30g",
+      "red onion (finely chopped)": "20g",
+      "olive oil": "1.5 tbsp",
+      "lemon juice": "1 tbsp",
+      "steamed green beans": "100g",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Beef Chili with Kidney Beans and Cornbread (Gluten-Free)",
+    "ingredients": {
+      "ground beef": "150g",
+      "kidney beans (cooked)": "100g",
+      "canned tomatoes": "100g",
+      "onion (chopped)": "40g",
+      "bell pepper (diced)": "50g",
+      "chili powder": "1 tsp",
+      "cumin": "0.5 tsp",
+      "olive oil": "1 tbsp",
+      "gluten-free cornbread": "1 serving (approx. 70g)",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Shrimp and Avocado Lettuce Wraps",
+    "ingredients": {
+      "shrimp (cooked, peeled)": "150g",
+      "avocado (diced)": "60g",
+      "red bell pepper (diced)": "40g",
+      "green onions (chopped)": "1 tbsp",
+      "lime juice": "1 tbsp",
+      "romaine lettuce leaves": "4 large",
+      "olive oil": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Pork Tenderloin with Apple Compote and Roasted Parsnips",
+    "ingredients": {
+      "pork tenderloin": "150g",
+      "parsnips (roasted)": "150g",
+      "apple (peeled, diced)": "80g",
+      "cinnamon": "0.25 tsp",
+      "olive oil": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Eggplant and Chickpea Curry with Basmati Rice",
+    "ingredients": {
+      "eggplant (cubed)": "150g",
+      "chickpeas (cooked)": "100g",
+      "coconut milk": "100ml",
+      "curry powder": "1 tbsp",
+      "onion (chopped)": "40g",
+      "garlic (minced)": "1 clove",
+      "ginger (grated)": "0.5 tsp",
+      "olive oil": "1 tbsp",
+      "basmati rice (cooked)": "100g",
+      "salt": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Grilled Vegetable and Halloumi Skewers with Tzatziki",
+    "ingredients": {
+      "halloumi cheese (cubed)": "120g",
+      "zucchini (sliced)": "50g",
+      "red bell pepper (sliced)": "50g",
+      "cherry tomatoes": "50g",
+      "olive oil": "1 tbsp",
+      "dried oregano": "0.5 tsp",
+      "tzatziki sauce": "50g"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Roast Chicken with Garlic Mashed Cauliflower and Steamed Broccoli",
+    "ingredients": {
+      "roast chicken (skin on)": "150g",
+      "cauliflower (steamed)": "150g",
+      "garlic (minced)": "1 clove",
+      "butter": "1 tbsp",
+      "milk (or dairy-free alternative)": "30ml",
+      "steamed broccoli": "100g",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Tuna Salad with Hard-Boiled Eggs and Avocado",
+    "ingredients": {
+      "canned tuna in water (drained)": "150g",
+      "hard-boiled eggs": "2 medium",
+      "avocado (diced)": "50g",
+      "mixed greens": "80g",
+      "olive oil": "1.5 tbsp",
+      "lemon juice": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Beef Stir-Fry with Snow Peas and Jasmine Rice",
+    "ingredients": {
+      "beef strips": "150g",
+      "snow peas": "100g",
+      "carrot (julienned)": "40g",
+      "soy sauce (gluten-free)": "1.5 tbsp",
+      "sesame oil": "1 tsp",
+      "ginger (grated)": "0.5 tsp",
+      "garlic (minced)": "1 clove",
+      "jasmine rice (cooked)": "100g",
+      "green onions (chopped)": "1 tbsp"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Stuffed Zucchini Boats with Ground Beef and Cheese",
+    "ingredients": {
+      "zucchini (halved and scooped)": "1 medium",
+      "ground beef": "150g",
+      "onion (chopped)": "40g",
+      "tomato sauce": "60g",
+      "mozzarella cheese (shredded)": "40g",
+      "olive oil": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Pan-Seared Duck Breast with Cherry Sauce and Roasted Root Vegetables",
+    "ingredients": {
+      "duck breast": "150g",
+      "cherry sauce": "60g",
+      "carrots (roasted)": "70g",
+      "parsnips (roasted)": "70g",
+      "olive oil": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Grilled Swordfish with Mango Salsa and Wild Rice",
+    "ingredients": {
+      "swordfish steak": "150g",
+      "mango (diced)": "80g",
+      "red bell pepper (diced)": "40g",
+      "red onion (finely chopped)": "20g",
+      "lime juice": "1 tbsp",
+      "wild rice (cooked)": "100g",
+      "olive oil": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Vegetable Frittata with Spinach and Goat Cheese",
+    "ingredients": {
+      "eggs": "3 large",
+      "spinach (fresh)": "80g",
+      "goat cheese (crumbled)": "40g",
+      "olive oil": "1 tbsp",
+      "onion (chopped)": "30g",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Chicken Curry with Coconut Milk and Jasmine Rice",
+    "ingredients": {
+      "chicken breast (cubed)": "150g",
+      "coconut milk": "100ml",
+      "curry powder": "1 tbsp",
+      "onion (chopped)": "40g",
+      "garlic (minced)": "1 clove",
+      "ginger (grated)": "0.5 tsp",
+      "olive oil": "1 tbsp",
+      "jasmine rice (cooked)": "100g",
+      "salt": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Grilled Shrimp with Avocado Corn Salad",
+    "ingredients": {
+      "grilled shrimp": "150g",
+      "avocado (diced)": "60g",
+      "corn kernels (cooked)": "70g",
+      "red onion (finely chopped)": "20g",
+      "cilantro (chopped)": "1 tbsp",
+      "lime juice": "1 tbsp",
+      "olive oil": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Roasted Turkey Breast with Cranberry Sauce and Sautéed Green Beans",
+    "ingredients": {
+      "roasted turkey breast": "150g",
+      "cranberry sauce": "50g",
+      "green beans (sautéed)": "100g",
+      "olive oil": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Vegetable and Tofu Stir-Fry with Brown Rice",
+    "ingredients": {
+      "firm tofu (cubed)": "150g",
+      "broccoli florets": "50g",
+      "bell pepper (sliced)": "50g",
+      "snap peas": "50g",
+      "soy sauce (gluten-free)": "1.5 tbsp",
+      "sesame oil": "1 tsp",
+      "garlic (minced)": "1 clove",
+      "ginger (grated)": "0.5 tsp",
+      "brown rice (cooked)": "100g"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Seared Scallops with Cauliflower Puree and Sautéed Spinach",
+    "ingredients": {
+      "scallops": "150g",
+      "cauliflower (steamed)": "150g",
+      "butter": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "spinach (sautéed)": "100g",
+      "olive oil": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Roast Beef with Horseradish Sauce and Roasted Vegetables",
+    "ingredients": {
+      "roast beef (sliced)": "150g",
+      "horseradish sauce": "30g",
+      "roasted carrots": "70g",
+      "roasted parsnips": "70g",
+      "olive oil": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Pork and Apple Stir-Fry with Snow Peas and Jasmine Rice",
+    "ingredients": {
+      "pork strips": "150g",
+      "apple (sliced)": "80g",
+      "snow peas": "100g",
+      "soy sauce (gluten-free)": "1.5 tbsp",
+      "ginger (grated)": "0.5 tsp",
+      "garlic (minced)": "1 clove",
+      "olive oil": "1 tbsp",
+      "jasmine rice (cooked)": "100g"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Baked Trout with Herb Butter and Roasted Vegetables",
+    "ingredients": {
+      "trout fillet": "150g",
+      "butter (herb infused)": "1 tbsp",
+      "zucchini (roasted)": "70g",
+      "yellow squash (roasted)": "70g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Chicken Shawarma Bowl with Hummus and Pickled Vegetables",
+    "ingredients": {
+      "chicken breast (sliced)": "150g",
+      "shawarma seasoning": "1 tbsp",
+      "olive oil": "1 tbsp",
+      "hummus": "50g",
+      "pickled cucumbers": "50g",
+      "cherry tomatoes": "40g",
+      "mixed greens": "50g"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Grilled Venison Steak with Roasted Beets and Carrots",
+    "ingredients": {
+      "venison steak": "150g",
+      "roasted beets": "80g",
+      "roasted carrots": "70g",
+      "olive oil": "1 tbsp",
+      "fresh rosemary": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Fish Tacos with Corn Tortillas and Cabbage Slaw",
+    "ingredients": {
+      "white fish fillet (grilled)": "150g",
+      "corn tortillas": "2 small",
+      "cabbage (shredded)": "50g",
+      "lime juice": "1 tbsp",
+      "cilantro (chopped)": "1 tbsp",
+      "sour cream (or dairy-free alternative)": "30g",
+      "olive oil": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Quinoa and Black Bean Stuffed Peppers",
+    "ingredients": {
+      "bell pepper (large)": "1",
+      "quinoa (cooked)": "100g",
+      "black beans (cooked)": "100g",
+      "tomato (diced)": "50g",
+      "onion (chopped)": "40g",
+      "olive oil": "1 tbsp",
+      "cumin": "0.5 tsp",
+      "chili powder": "0.5 tsp",
+      "shredded cheddar cheese": "40g",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Duck Breast Salad with Orange Segments and Walnuts",
+    "ingredients": {
+      "duck breast (grilled, sliced)": "150g",
+      "mixed salad greens": "80g",
+      "orange segments": "60g",
+      "walnuts (chopped)": "20g",
+      "olive oil": "1.5 tbsp",
+      "balsamic vinegar": "1 tbsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Eggplant Parmesan (Gluten-Free) with Side Salad",
+    "ingredients": {
+      "eggplant (sliced)": "150g",
+      "gluten-free breadcrumbs": "30g",
+      "mozzarella cheese (shredded)": "50g",
+      "parmesan cheese (grated)": "20g",
+      "tomato sauce": "100g",
+      "olive oil": "1 tbsp",
+      "mixed greens": "80g",
+      "olive oil (for salad)": "1 tbsp",
+      "lemon juice": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Grilled Chicken Caesar Salad (Gluten-Free)",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "romaine lettuce": "100g",
+      "gluten-free Caesar dressing": "2 tbsp",
+      "parmesan cheese (shaved)": "20g",
+      "gluten-free croutons": "20g"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Stuffed Acorn Squash with Ground Beef and Cranberries",
+    "ingredients": {
+      "acorn squash (halved and roasted)": "1 small",
+      "ground beef": "120g",
+      "onion (chopped)": "40g",
+      "dried cranberries": "30g",
+      "olive oil": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Gluten-Free Pasta Primavera with Grilled Chicken",
+    "ingredients": {
+      "gluten-free pasta (dry)": "70g",
+      "grilled chicken breast (sliced)": "150g",
+      "zucchini (sliced)": "50g",
+      "cherry tomatoes": "50g",
+      "olive oil": "1.5 tbsp",
+      "garlic (minced)": "1 clove",
+      "parmesan cheese (grated)": "20g",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Beef and Broccoli with Cauliflower Rice",
+    "ingredients": {
+      "beef strips": "150g",
+      "broccoli florets": "100g",
+      "soy sauce (gluten-free)": "1.5 tbsp",
+      "garlic (minced)": "1 clove",
+      "ginger (grated)": "0.5 tsp",
+      "sesame oil": "1 tsp",
+      "cauliflower rice": "150g"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Roasted Chicken Thighs with Ratatouille",
+    "ingredients": {
+      "chicken thigh (skin-on)": "150g",
+      "eggplant (diced)": "50g",
+      "zucchini (diced)": "50g",
+      "bell pepper (diced)": "50g",
+      "tomato (diced)": "50g",
+      "olive oil": "1.5 tbsp",
+      "garlic (minced)": "1 clove",
+      "thyme (dried)": "0.5 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Pesto Salmon with Sautéed Kale and Quinoa",
+    "ingredients": {
+      "salmon fillet": "150g",
+      "basil pesto (gluten-free)": "2 tbsp",
+      "kale (sautéed)": "100g",
+      "quinoa (cooked)": "100g",
+      "olive oil": "1 tsp",
+      "lemon juice": "1 tsp",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  },
+  {
+    "meal_type": "dinner",
+    "name": "Chicken and Vegetable Kabobs with Brown Rice",
+    "ingredients": {
+      "chicken breast (cubed)": "150g",
+      "bell pepper (cubed)": "50g",
+      "red onion (cubed)": "40g",
+      "zucchini (sliced)": "50g",
+      "olive oil": "1 tbsp",
+      "dried oregano": "0.5 tsp",
+      "brown rice (cooked)": "100g",
+      "salt": "to taste",
+      "black pepper": "to taste"
+    }
+  }
+]

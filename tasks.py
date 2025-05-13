@@ -29,19 +29,19 @@ class MealPlannerTasks:
             expected_output="A JSON array of 40 meal objects, each with the meal type, name, ingredients, and amounts.",
             agent=agent,
             async_execution=True,
-            output_file=f"./meal_ideas_{meal_type}.json",
+            output_file=f"./meal_output_files/meal_ideas_{meal_type}.json",
         )
 
     def aggregate_meal_ideas_task(self, agent):
         return Task(
             description="""
-                Read ./meal_ideas_breakfast.json, lunch, dinner, snack;
-                concatenate into one JSON array and write to ./all_meal_ideas.json
+                Read ./meal_output_files/meal_ideas_breakfast.json, lunch, dinner, snack;
+                concatenate into one JSON array and write to ./meal_output_files/all_meal_ideas.json
             """,
             expected_output="A single JSON array of all meal ideas.",
             agent=agent,
             context=[],
-            output_file="./all_meal_ideas.json",
+            output_file="./meal_output_files/all_meal_ideas.json",
         )
 
     def nutrition_value_task(self, agent, meal_plan_task):
@@ -60,7 +60,7 @@ class MealPlannerTasks:
             expected_output="An updated JSON array that contains the total nutritional values.",
             agent=agent,
             context=meal_plan_task,
-            output_file="./meal_ideas_with_cals.json",
+            output_file="./meal_output_files/meal_ideas_with_cals.json",
         )
 
     def meal_planning_task(self, agent, enriched_meals_task, nutrition_requirements):
@@ -70,36 +70,77 @@ class MealPlannerTasks:
                 {self.__tip_section()}
                 
                 Using the nutritional data from `enriched_meals_task`, assemble a **7-day** meal plan (Monday–Sunday) 
-                with **three meals** (breakfast, lunch, dinner) and **up to two snacks per day** that collectively meet 
+                with **three meals** (breakfast, lunch, dinner) and **one or two snacks per day** that collectively meet 
                 the daily nutritional targets **{nutrition_requirements}**, within a **±10%** tolerance.
+                **YOU MUST SCALE UP MEAL(S) TO ENSURE THAT THE NUTRITIONAL TARGETS ARE MET**
                 """
             ),
             expected_output=(
                 "A JSON object with keys Monday…Sunday, each containing sub-keys "
-                "`breakfast`, `lunch`, `dinner`, and `snacks` (an array of 0–2 items), "
-                "with calorie and macro information for each meal."
+                "`breakfast`, `lunch`, `dinner`, and `snacks` (an array of 1–2 items), "
+                "with calorie and macro information for each meal. Also a 'total' key that has the total "
+                "calorie and macro information for the day"
             ),
             agent=agent,
             context=[enriched_meals_task],
-            output_file="./meal_files/meal_plan.json",
+            output_file="./meal_output_files/meal_plan.json",
         )
+
+    # def reporting_task(self, agent, meals_planned_task):
+    #     return Task(
+    #         description=dedent(
+    #             f"""
+    #         {self.__tip_section()}
+    #
+    #         Compile the meal plan results into a detailed report in a HTML file.
+    #     """
+    #         ),
+    #         expected_output="An HTML file with the results in the following format:"
+    #         "The Day of the Week"
+    #         "The Meal Type (e.g., Breakfast, Lunch, Dinner)"
+    #         "- Meal Name"
+    #         "   - Ingredients and Measurements"
+    #         "   - Nutritional Values (calories, protein, fats, etc)"
+    #         "Totals for all Nutritional Values",
+    #         agent=agent,
+    #         context=[meals_planned_task],
+    #         output_file="./meal_output_files/meal_plan.html",
+    #     )
+
 
     def reporting_task(self, agent, meals_planned_task):
         return Task(
-            description=dedent(
-                f"""
-            {self.__tip_section()}
-
-            Compile the meal plan results into a detailed report in a HTML file.
-        """
-            ),
-            expected_output="An HTML file with the results in the following format:"
-            "The Day of the Week"
-            "The Meal Type (e.g., Breakfast, Lunch, Dinner)"
-            "- Meal Name"
-            "   - Ingredients and Measurements"
-            "   - Nutritional Values (calories, protein, fats, etc)",
+            description=dedent(f"""
+                {self.__tip_section()}
+    
+                Using the provided HTML skeleton (doctype, head, body, styles), insert a 
+                `<section class="day-section" id="{{day}}">` for each day (Monday–Sunday).
+                Within each section:
+                  1. Add `<h2>{{day}}</h2>`.
+                  2. For each meal type (breakfast, lunch, dinner), insert a 
+                     `<div class="meal" data-type="{{meal_type}}">` containing:
+                       - `<h3>{{meal_type.title()}}: {{meal.name}}</h3>`
+                       - `<ul>` of `<li>{{ingredient}}: {{amount}}</li>`
+                     Close `</div>`.
+                  3. If snacks exist, create `<aside class="snacks">` with a `<ul>`.
+                  4. Append a `<table class="nutrition-table">` summarizing that day’s totals:
+                     | Nutrient        | Amount   |
+                     |-----------------|----------|
+                     | Calories        | {{totals.calories}} |
+                     | Protein (g)     | {{totals.protein}}  |
+                     | Carbs (g)       | {{totals.carbs}}    |
+                     | Fat (g)         | {{totals.fat}}      |
+    
+                Ensure proper closing of all HTML tags.
+            """),
+            expected_output=dedent("""
+                A valid HTML file matching the skeleton, with:
+                - Seven `<section>` blocks for each day.
+                - Nested `<div>` for meals and `<aside>` for snacks.
+                - A `<table>` summarizing daily nutrition.
+            """),
             agent=agent,
             context=[meals_planned_task],
-            output_file="./meal_plan.html",
+            output_file="./meal_output_files/meal_plan.html",
         )
+

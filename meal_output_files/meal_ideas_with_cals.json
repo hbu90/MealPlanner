@@ -1,0 +1,737 @@
+[
+  {
+    "meal_type": "lunch",
+    "name": "Grilled Chicken Quinoa Salad",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "quinoa (cooked)": "100g",
+      "cherry tomatoes": "50g",
+      "cucumber": "50g",
+      "feta cheese": "30g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tbsp",
+      "fresh parsley": "5g"
+    },
+    "total_calories": 543,
+    "total_carbohydrates_g": 30,
+    "total_sugars_g": 6,
+    "total_fat_g": 26,
+    "total_saturated_fat_g": 7,
+    "total_protein_g": 44
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Turkey Lettuce Wraps with Avocado",
+    "ingredients": {
+      "ground turkey (cooked)": "150g",
+      "butter lettuce leaves": "4 large",
+      "avocado": "70g",
+      "red bell pepper": "50g",
+      "shredded carrot": "30g",
+      "lime juice": "1 tbsp",
+      "olive oil": "1 tsp",
+      "cilantro": "5g"
+    },
+    "total_calories": 434,
+    "total_carbohydrates_g": 12,
+    "total_sugars_g": 5,
+    "total_fat_g": 29,
+    "total_saturated_fat_g": 6,
+    "total_protein_g": 32
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Baked Salmon with Roasted Vegetables",
+    "ingredients": {
+      "salmon fillet": "150g",
+      "zucchini": "70g",
+      "red bell pepper": "50g",
+      "carrots": "50g",
+      "olive oil": "1.5 tbsp",
+      "lemon slices": "2 slices",
+      "garlic (minced)": "1 clove",
+      "fresh thyme": "3g"
+    },
+    "total_calories": 555,
+    "total_carbohydrates_g": 15,
+    "total_sugars_g": 9,
+    "total_fat_g": 38,
+    "total_saturated_fat_g": 7,
+    "total_protein_g": 38
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Beef and Sweet Potato Bowl",
+    "ingredients": {
+      "lean ground beef": "150g",
+      "sweet potato (roasted)": "150g",
+      "spinach": "50g",
+      "red onion": "30g",
+      "olive oil": "1 tbsp",
+      "cumin powder": "1 tsp",
+      "fresh cilantro": "5g"
+    },
+    "total_calories": 520,
+    "total_carbohydrates_g": 32,
+    "total_sugars_g": 8,
+    "total_fat_g": 28,
+    "total_saturated_fat_g": 10,
+    "total_protein_g": 36
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Shrimp and Avocado Salad",
+    "ingredients": {
+      "cooked shrimp": "150g",
+      "avocado": "70g",
+      "mixed greens": "60g",
+      "cherry tomatoes": "50g",
+      "olive oil": "1 tbsp",
+      "lime juice": "1 tbsp",
+      "red onion": "20g"
+    },
+    "total_calories": 460,
+    "total_carbohydrates_g": 14,
+    "total_sugars_g": 6,
+    "total_fat_g": 32,
+    "total_saturated_fat_g": 5,
+    "total_protein_g": 35
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Chicken and Vegetable Stir-fry",
+    "ingredients": {
+      "chicken breast": "150g",
+      "broccoli florets": "80g",
+      "red bell pepper": "50g",
+      "carrots": "50g",
+      "tamari (gluten-free soy sauce)": "1 tbsp",
+      "olive oil": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "ginger (minced)": "1 tsp"
+    },
+    "total_calories": 430,
+    "total_carbohydrates_g": 15,
+    "total_sugars_g": 7,
+    "total_fat_g": 20,
+    "total_saturated_fat_g": 4,
+    "total_protein_g": 44
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Tuna Salad Stuffed Bell Peppers",
+    "ingredients": {
+      "canned tuna in water (drained)": "150g",
+      "red bell pepper": "2 medium",
+      "celery": "30g",
+      "mayonnaise (gluten-free)": "1 tbsp",
+      "dijon mustard": "1 tsp",
+      "lemon juice": "1 tbsp",
+      "black pepper": "to taste"
+    },
+    "total_calories": 350,
+    "total_carbohydrates_g": 12,
+    "total_sugars_g": 7,
+    "total_fat_g": 13,
+    "total_saturated_fat_g": 2,
+    "total_protein_g": 46
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Gluten-Free Chicken Caesar Salad",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "romaine lettuce": "80g",
+      "gluten-free croutons": "30g",
+      "parmesan cheese": "20g",
+      "caesar dressing (gluten-free)": "2 tbsp"
+    },
+    "total_calories": 480,
+    "total_carbohydrates_g": 15,
+    "total_sugars_g": 3,
+    "total_fat_g": 26,
+    "total_saturated_fat_g": 9,
+    "total_protein_g": 46
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Quinoa and Black Bean Bowl",
+    "ingredients": {
+      "quinoa (cooked)": "100g",
+      "black beans (cooked)": "100g",
+      "corn kernels": "50g",
+      "avocado": "70g",
+      "cherry tomatoes": "50g",
+      "lime juice": "1 tbsp",
+      "cilantro": "5g",
+      "olive oil": "1 tbsp"
+    },
+    "total_calories": 570,
+    "total_carbohydrates_g": 55,
+    "total_sugars_g": 7,
+    "total_fat_g": 28,
+    "total_saturated_fat_g": 4,
+    "total_protein_g": 16
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Grilled Steak with Asparagus and Sweet Potato",
+    "ingredients": {
+      "lean steak": "150g",
+      "asparagus": "100g",
+      "sweet potato (baked)": "150g",
+      "olive oil": "1 tbsp",
+      "garlic powder": "1 tsp",
+      "black pepper": "to taste"
+    },
+    "total_calories": 570,
+    "total_carbohydrates_g": 35,
+    "total_sugars_g": 8,
+    "total_fat_g": 28,
+    "total_saturated_fat_g": 10,
+    "total_protein_g": 45
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Egg Salad Lettuce Wraps",
+    "ingredients": {
+      "hard boiled eggs": "3 large",
+      "mayonnaise (gluten-free)": "2 tbsp",
+      "dijon mustard": "1 tsp",
+      "celery": "30g",
+      "green onions": "15g",
+      "butter lettuce leaves": "4 large"
+    },
+    "total_calories": 460,
+    "total_carbohydrates_g": 5,
+    "total_sugars_g": 3,
+    "total_fat_g": 39,
+    "total_saturated_fat_g": 8,
+    "total_protein_g": 23
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Gluten-Free Chicken and Avocado Wrap",
+    "ingredients": {
+      "gluten-free tortilla": "1 large (60g)",
+      "grilled chicken breast": "120g",
+      "avocado": "50g",
+      "lettuce": "40g",
+      "tomato slices": "50g",
+      "honey mustard dressing": "1 tbsp"
+    },
+    "total_calories": 520,
+    "total_carbohydrates_g": 30,
+    "total_sugars_g": 7,
+    "total_fat_g": 24,
+    "total_saturated_fat_g": 4,
+    "total_protein_g": 42
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Roasted Turkey and Cranberry Salad",
+    "ingredients": {
+      "roasted turkey slices": "150g",
+      "mixed greens": "70g",
+      "dried cranberries (unsweetened)": "20g",
+      "walnuts": "15g",
+      "olive oil": "1 tbsp",
+      "balsamic vinegar": "1 tbsp"
+    },
+    "total_calories": 445,
+    "total_carbohydrates_g": 14,
+    "total_sugars_g": 10,
+    "total_fat_g": 30,
+    "total_saturated_fat_g": 3,
+    "total_protein_g": 35
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Sweet Potato and Black Bean Tacos",
+    "ingredients": {
+      "sweet potato (roasted)": "150g",
+      "black beans (cooked)": "100g",
+      "corn tortillas (gluten-free)": "2 medium",
+      "avocado": "50g",
+      "salsa": "30g",
+      "cilantro": "5g"
+    },
+    "total_calories": 540,
+    "total_carbohydrates_g": 70,
+    "total_sugars_g": 10,
+    "total_fat_g": 15,
+    "total_saturated_fat_g": 2,
+    "total_protein_g": 18
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Tuna and Avocado Salad",
+    "ingredients": {
+      "canned tuna in water (drained)": "150g",
+      "avocado": "70g",
+      "red onion": "20g",
+      "mixed greens": "50g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tbsp"
+    },
+    "total_calories": 475,
+    "total_carbohydrates_g": 9,
+    "total_sugars_g": 4,
+    "total_fat_g": 31,
+    "total_saturated_fat_g": 5,
+    "total_protein_g": 42
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Chicken and Broccoli Rice Bowl",
+    "ingredients": {
+      "chicken breast (grilled)": "150g",
+      "brown rice (cooked)": "100g",
+      "steamed broccoli": "80g",
+      "olive oil": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "soy sauce (gluten-free)": "1 tbsp"
+    },
+    "total_calories": 510,
+    "total_carbohydrates_g": 40,
+    "total_sugars_g": 4,
+    "total_fat_g": 15,
+    "total_saturated_fat_g": 3,
+    "total_protein_g": 45
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Shrimp and Mango Salad",
+    "ingredients": {
+      "cooked shrimp": "150g",
+      "mango (diced)": "70g",
+      "mixed greens": "50g",
+      "red bell pepper": "50g",
+      "lime juice": "1 tbsp",
+      "olive oil": "1 tbsp",
+      "cilantro": "5g"
+    },
+    "total_calories": 410,
+    "total_carbohydrates_g": 26,
+    "total_sugars_g": 20,
+    "total_fat_g": 18,
+    "total_saturated_fat_g": 3,
+    "total_protein_g": 35
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Beef and Vegetable Skewers",
+    "ingredients": {
+      "lean beef cubes": "150g",
+      "zucchini slices": "50g",
+      "cherry tomatoes": "50g",
+      "red onion chunks": "30g",
+      "olive oil": "1 tbsp",
+      "rosemary": "2g"
+    },
+    "total_calories": 510,
+    "total_carbohydrates_g": 12,
+    "total_sugars_g": 6,
+    "total_fat_g": 30,
+    "total_saturated_fat_g": 10,
+    "total_protein_g": 45
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Asian Chicken Salad",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "shredded cabbage": "70g",
+      "carrots": "50g",
+      "green onions": "20g",
+      "sesame oil": "1 tbsp",
+      "rice vinegar": "1 tbsp",
+      "gluten-free soy sauce": "1 tbsp",
+      "sesame seeds": "1 tsp"
+    },
+    "total_calories": 460,
+    "total_carbohydrates_g": 15,
+    "total_sugars_g": 7,
+    "total_fat_g": 23,
+    "total_saturated_fat_g": 3,
+    "total_protein_g": 42
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Gluten-Free Veggie Omelette",
+    "ingredients": {
+      "eggs": "3 large",
+      "bell peppers": "50g",
+      "spinach": "50g",
+      "onion": "30g",
+      "olive oil": "1 tbsp",
+      "cheddar cheese": "30g"
+    },
+    "total_calories": 480,
+    "total_carbohydrates_g": 9,
+    "total_sugars_g": 5,
+    "total_fat_g": 37,
+    "total_saturated_fat_g": 15,
+    "total_protein_g": 30
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Chicken and Avocado Salad Bowl",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "avocado": "70g",
+      "mixed greens": "60g",
+      "cucumber": "50g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tbsp"
+    },
+    "total_calories": 530,
+    "total_carbohydrates_g": 11,
+    "total_sugars_g": 5,
+    "total_fat_g": 35,
+    "total_saturated_fat_g": 6,
+    "total_protein_g": 44
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Salmon and Spinach Salad",
+    "ingredients": {
+      "cooked salmon": "150g",
+      "spinach": "70g",
+      "red onion": "20g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tbsp",
+      "capers": "10g"
+    },
+    "total_calories": 520,
+    "total_carbohydrates_g": 8,
+    "total_sugars_g": 3,
+    "total_fat_g": 38,
+    "total_saturated_fat_g": 7,
+    "total_protein_g": 40
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Turkey and Sweet Potato Hash",
+    "ingredients": {
+      "ground turkey": "150g",
+      "sweet potato (diced)": "150g",
+      "red bell pepper": "50g",
+      "onion": "30g",
+      "olive oil": "1 tbsp",
+      "paprika": "1 tsp"
+    },
+    "total_calories": 500,
+    "total_carbohydrates_g": 35,
+    "total_sugars_g": 9,
+    "total_fat_g": 22,
+    "total_saturated_fat_g": 5,
+    "total_protein_g": 38
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Gluten-Free Chicken Tacos",
+    "ingredients": {
+      "grilled chicken breast (sliced)": "150g",
+      "corn tortillas": "2 medium",
+      "shredded lettuce": "50g",
+      "salsa": "30g",
+      "avocado": "50g",
+      "lime wedges": "2 wedges"
+    },
+    "total_calories": 520,
+    "total_carbohydrates_g": 40,
+    "total_sugars_g": 8,
+    "total_fat_g": 18,
+    "total_saturated_fat_g": 4,
+    "total_protein_g": 45
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Quinoa and Roasted Veggie Salad",
+    "ingredients": {
+      "quinoa (cooked)": "100g",
+      "roasted zucchini": "50g",
+      "roasted red peppers": "50g",
+      "feta cheese": "30g",
+      "olive oil": "1 tbsp",
+      "balsamic vinegar": "1 tbsp"
+    },
+    "total_calories": 490,
+    "total_carbohydrates_g": 35,
+    "total_sugars_g": 10,
+    "total_fat_g": 28,
+    "total_saturated_fat_g": 7,
+    "total_protein_g": 14
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Beef and Avocado Salad",
+    "ingredients": {
+      "lean beef strips (cooked)": "150g",
+      "avocado": "70g",
+      "mixed greens": "60g",
+      "cherry tomatoes": "50g",
+      "olive oil": "1 tbsp",
+      "red wine vinegar": "1 tbsp"
+    },
+    "total_calories": 580,
+    "total_carbohydrates_g": 12,
+    "total_sugars_g": 6,
+    "total_fat_g": 40,
+    "total_saturated_fat_g": 12,
+    "total_protein_g": 45
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Chicken and Cauliflower Rice Bowl",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "cauliflower rice": "150g",
+      "steamed broccoli": "80g",
+      "olive oil": "1 tbsp",
+      "garlic powder": "1 tsp"
+    },
+    "total_calories": 430,
+    "total_carbohydrates_g": 15,
+    "total_sugars_g": 6,
+    "total_fat_g": 20,
+    "total_saturated_fat_g": 4,
+    "total_protein_g": 44
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Shrimp and Avocado Lettuce Wraps",
+    "ingredients": {
+      "cooked shrimp": "150g",
+      "avocado": "70g",
+      "butter lettuce leaves": "4 large",
+      "red bell pepper": "50g",
+      "lime juice": "1 tbsp",
+      "cilantro": "5g"
+    },
+    "total_calories": 460,
+    "total_carbohydrates_g": 12,
+    "total_sugars_g": 6,
+    "total_fat_g": 32,
+    "total_saturated_fat_g": 5,
+    "total_protein_g": 35
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Turkey and Spinach Salad",
+    "ingredients": {
+      "roasted turkey breast": "150g",
+      "spinach": "70g",
+      "walnuts": "15g",
+      "dried cranberries": "20g",
+      "olive oil": "1 tbsp",
+      "balsamic vinegar": "1 tbsp"
+    },
+    "total_calories": 470,
+    "total_carbohydrates_g": 18,
+    "total_sugars_g": 12,
+    "total_fat_g": 29,
+    "total_saturated_fat_g": 3,
+    "total_protein_g": 43
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Gluten-Free Chicken Fried Rice",
+    "ingredients": {
+      "chicken breast (diced)": "150g",
+      "brown rice (cooked)": "100g",
+      "egg": "1 large",
+      "carrots": "50g",
+      "peas": "50g",
+      "tamari (gluten-free soy sauce)": "1 tbsp",
+      "olive oil": "1 tbsp"
+    },
+    "total_calories": 565,
+    "total_carbohydrates_g": 45,
+    "total_sugars_g": 6,
+    "total_fat_g": 20,
+    "total_saturated_fat_g": 4,
+    "total_protein_g": 50
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Salmon and Avocado Salad",
+    "ingredients": {
+      "cooked salmon": "150g",
+      "avocado": "70g",
+      "mixed greens": "60g",
+      "cucumber": "50g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tbsp"
+    },
+    "total_calories": 560,
+    "total_carbohydrates_g": 11,
+    "total_sugars_g": 5,
+    "total_fat_g": 40,
+    "total_saturated_fat_g": 7,
+    "total_protein_g": 40
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Chicken and Sweet Potato Salad",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "sweet potato (roasted)": "150g",
+      "arugula": "50g",
+      "red onion": "20g",
+      "olive oil": "1 tbsp",
+      "red wine vinegar": "1 tbsp"
+    },
+    "total_calories": 530,
+    "total_carbohydrates_g": 35,
+    "total_sugars_g": 9,
+    "total_fat_g": 18,
+    "total_saturated_fat_g": 4,
+    "total_protein_g": 44
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Beef and Quinoa Salad",
+    "ingredients": {
+      "lean beef (grilled)": "150g",
+      "quinoa (cooked)": "100g",
+      "cherry tomatoes": "50g",
+      "cucumber": "50g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tbsp"
+    },
+    "total_calories": 580,
+    "total_carbohydrates_g": 30,
+    "total_sugars_g": 6,
+    "total_fat_g": 35,
+    "total_saturated_fat_g": 10,
+    "total_protein_g": 44
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Chicken and Zucchini Noodles",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "zucchini noodles": "150g",
+      "cherry tomatoes": "50g",
+      "olive oil": "1 tbsp",
+      "garlic (minced)": "1 clove",
+      "basil leaves": "5g"
+    },
+    "total_calories": 460,
+    "total_carbohydrates_g": 15,
+    "total_sugars_g": 7,
+    "total_fat_g": 20,
+    "total_saturated_fat_g": 4,
+    "total_protein_g": 44
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Shrimp and Cabbage Slaw",
+    "ingredients": {
+      "cooked shrimp": "150g",
+      "shredded cabbage": "70g",
+      "carrots": "50g",
+      "olive oil": "1 tbsp",
+      "apple cider vinegar": "1 tbsp",
+      "cilantro": "5g"
+    },
+    "total_calories": 370,
+    "total_carbohydrates_g": 15,
+    "total_sugars_g": 8,
+    "total_fat_g": 17,
+    "total_saturated_fat_g": 3,
+    "total_protein_g": 35
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Turkey Meatballs with Cauliflower Mash",
+    "ingredients": {
+      "ground turkey": "150g",
+      "gluten-free breadcrumbs": "20g",
+      "egg": "1 large",
+      "cauliflower (boiled)": "150g",
+      "olive oil": "1 tbsp",
+      "garlic powder": "1 tsp"
+    },
+    "total_calories": 480,
+    "total_carbohydrates_g": 15,
+    "total_sugars_g": 6,
+    "total_fat_g": 26,
+    "total_saturated_fat_g": 6,
+    "total_protein_g": 42
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Chicken and Avocado Quinoa Bowl",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "quinoa (cooked)": "100g",
+      "avocado": "70g",
+      "mixed greens": "50g",
+      "olive oil": "1 tbsp",
+      "lemon juice": "1 tbsp"
+    },
+    "total_calories": 580,
+    "total_carbohydrates_g": 31,
+    "total_sugars_g": 6,
+    "total_fat_g": 32,
+    "total_saturated_fat_g": 7,
+    "total_protein_g": 44
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Gluten-Free Chicken Pita Salad",
+    "ingredients": {
+      "gluten-free pita bread": "1 medium (60g)",
+      "grilled chicken breast": "150g",
+      "lettuce": "50g",
+      "tomato slices": "50g",
+      "cucumber": "50g",
+      "tzatziki sauce (gluten-free)": "2 tbsp"
+    },
+    "total_calories": 590,
+    "total_carbohydrates_g": 35,
+    "total_sugars_g": 7,
+    "total_fat_g": 21,
+    "total_saturated_fat_g": 6,
+    "total_protein_g": 45
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Beef and Sweet Potato Chili",
+    "ingredients": {
+      "lean ground beef": "150g",
+      "sweet potato (diced)": "150g",
+      "diced tomatoes": "100g",
+      "red kidney beans (cooked)": "50g",
+      "chili powder": "1 tsp",
+      "olive oil": "1 tbsp"
+    },
+    "total_calories": 560,
+    "total_carbohydrates_g": 40,
+    "total_sugars_g": 9,
+    "total_fat_g": 30,
+    "total_saturated_fat_g": 10,
+    "total_protein_g": 40
+  },
+  {
+    "meal_type": "lunch",
+    "name": "Chicken and Avocado Salad with Citrus Dressing",
+    "ingredients": {
+      "grilled chicken breast": "150g",
+      "avocado": "70g",
+      "mixed greens": "60g",
+      "orange segments": "50g",
+      "olive oil": "1 tbsp",
+      "orange juice": "1 tbsp"
+    },
+    "total_calories": 570,
+    "total_carbohydrates_g": 20,
+    "total_sugars_g": 15,
+    "total_fat_g": 35,
+    "total_saturated_fat_g": 6,
+    "total_protein_g": 44
+  }
+]
