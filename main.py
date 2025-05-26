@@ -3,6 +3,10 @@ import openai
 from crewai import Crew, Process
 
 from textwrap import dedent
+import tkinter as tk
+from tkinter import messagebox, font
+from tkinter import ttk
+
 from agents import MealPlannerAgents
 from tasks import MealPlannerTasks
 
@@ -52,21 +56,11 @@ class MealPlannerCrew:
         return result
 
 
-if __name__ == "__main__":
-    print("## Welcome to the Meal Planner")
-    print("-------------------------------")
-    # input_dietary = input(dedent("""Do you have any dietary requirements?"""))
-    # input_exclusions = input(dedent("""What foods do you dislike?"""))
+def run_meal_planner():
+    input_dietary = dietary_entry.get()
+    input_exclusions = exclusions_entry.get()
 
-    input_dietary = "Gluten-free"
-    input_exclusions = "Mushrooms"
-
-    our_input_criteria = f"""
-    Dietary requirements are: {input_dietary}
-    Food exclusions are: {input_exclusions}
-    """
-
-    our_nutritional_requirements = f"""
+    nutritional_requirements = f"""
     2,650 calories/day
     160 grams/day protein
     75 grams/day fat
@@ -75,9 +69,38 @@ if __name__ == "__main__":
     25 grams/day saturated fat
     """
 
-    meal_plan_crew = MealPlannerCrew(our_input_criteria, our_nutritional_requirements)
+    input_criteria = f"""
+    Dietary requirements are: {input_dietary}
+    Food exclusions are: {input_exclusions}
+    """
+
+    meal_plan_crew = MealPlannerCrew(input_criteria, nutritional_requirements)
     meal_plan_result = meal_plan_crew.run()
     print("\n\n########################")
     print("## Here is you Meal Planner Crew results:")
     print("########################\n")
     print(meal_plan_result)
+    messagebox.showinfo("Meal Planner", "Meal plan is generated!\nCheck your output files.")
+
+    root.destroy()
+
+
+if __name__ == "__main__":
+    print("## Welcome to the Meal Planner")
+    print("-------------------------------")
+
+    root = tk.Tk()
+    root.title("Meal Planner")
+
+    tk.Label(root, text="Do you have any dietary requirements?").grid(row=0, column=0, padx=10, pady=5)
+    dietary_entry = tk.Entry(root, width=40)
+    dietary_entry.grid(row=0, column=1)
+
+    tk.Label(root, text="What foods do you dislike?").grid(row=1, column=0, padx=10, pady=5)
+    exclusions_entry = tk.Entry(root, width=40)
+    exclusions_entry.grid(row=1, column=1)
+
+    run_button = tk.Button(root, text="Run Meal Planner", command=run_meal_planner)
+    run_button.grid(row=2, column=0, columnspan=2, pady=10)
+
+    root.mainloop()
