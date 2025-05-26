@@ -7,22 +7,24 @@ class MealPlannerAgents:
     def __init__(self):
         self.OpenAIGPT4_1_MINI = ChatOpenAI(model_name="gpt-4.1-mini", temperature=0.7)
         self.OpenAIGPT4_1_NANO = ChatOpenAI(model_name="gpt-4.1-nano", temperature=0.7)
+        self.OpenAIGPT4_o = ChatOpenAI(model_name="gpt-4o", temperature=0.7)
+        self.OpenAIGPT4_1 = ChatOpenAI(model_name="gpt-4.1", temperature=0.7)
 
     def meal_idea_agent(self):
         return Agent(
             role="Meal Idea Generator",
             backstory=dedent(
                 f"You are a Head Chef tasked with producing meal ideas in batches. Given a list of meal types, "
-                f"iterate over each type and generate 40 JSON-formatted meal objects. "
+                f"iterate over each type and generate 50 JSON-formatted meal objects. "
                 f"At the end, merge all results into one JSON array and save to the specified output file."
             ),
             goal=dedent(
-                f"""Generate 40 meal ideas for a given meal type that satisfy 
+                f"""Generate 50 meal ideas for a given meal type that satisfy 
                 a set of requirements. You should provide ingredients and amounts for one portion."""
             ),
             allow_delegation=False,
             verbose=True,
-            llm=self.OpenAIGPT4_1_MINI,
+            llm=self.OpenAIGPT4_1,
         )
 
     def nutrition_agent(self):
@@ -38,7 +40,7 @@ class MealPlannerAgents:
             ),
             allow_delegation=False,
             verbose=True,
-            llm=self.OpenAIGPT4_1_MINI,
+            llm=self.OpenAIGPT4_1,
         )
 
     def meal_planner_agent(self):
@@ -55,7 +57,7 @@ class MealPlannerAgents:
             ),
             allow_delegation=False,
             verbose=True,
-            llm=self.OpenAIGPT4_1_MINI,
+            llm=self.OpenAIGPT4_1,
         )
 
     def frontend_agent(self):
@@ -68,5 +70,5 @@ class MealPlannerAgents:
             ),
             goal=dedent(f"""Compile the results into a HTML file."""),
             verbose=True,
-            llm=self.OpenAIGPT4_1_NANO,
+            llm=self.OpenAIGPT4_1,
         )
