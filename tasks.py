@@ -3,9 +3,9 @@ from textwrap import dedent
 
 PER_MEAL_CALORIE = {
     "breakfast": (600, 800),
-    "lunch":     (600, 800),
-    "dinner":    (600, 800),
-    "snack":     (200, 400),
+    "lunch": (600, 800),
+    "dinner": (600, 800),
+    "snack": (200, 400),
 }
 
 
@@ -18,23 +18,27 @@ class MealPlannerTasks:
             description=dedent(f"""
                 {self.__tip_section()}
 
-                You will generate 40 unique meal ideas **for each** of the following meal types:
+                You will generate 50 unique meal ideas **for each** of the following meal types:
                 {', '.join(meal_types)}.  
 
                 Requirements for **each** meal idea:
-                - Calories between {PER_MEAL_CALORIE['breakfast'][0]}–{PER_MEAL_CALORIE['breakfast'][1]} 
-                (use the appropriate range for each type)  .
-                - Meet the dietary requirements and exclusions: {input_criteria}  
+                - Calories between:
+                    - Breakfast: {PER_MEAL_CALORIE['breakfast'][0]}–{PER_MEAL_CALORIE['breakfast'][1]} 
+                    - Lunch: {PER_MEAL_CALORIE['lunch'][0]}–{PER_MEAL_CALORIE['lunch'][1]} 
+                    - Dinner: {PER_MEAL_CALORIE['dinner'][0]}–{PER_MEAL_CALORIE['dinner'][1]} 
+                    - Snack: {PER_MEAL_CALORIE['snack'][0]}–{PER_MEAL_CALORIE['snack'][1]} 
+                - **Strictly** meet the dietary requirements and exclusions: {input_criteria}  
                 - List ingredients with precise amounts for one portion.
+                - Provide concise instructions for the recipe. 
 
                 **Instruction:**  
-                1. For each meal type in that list, produce a sub‐array of 40 JSON objects  
+                1. For each meal type in that list, produce a sub‐array of 50 JSON objects  
                 2. Merge all sub‐arrays into one top‐level JSON array  
                 3. Write the combined JSON array to `./meal_output_files/all_meal_ideas.json`
             """),
-            expected_output="A single JSON array of 160 meal objects (40 per type), written to all_meal_ideas.json",
+            expected_output="A single JSON array of 200 meal objects (50 per type), written to all_meal_ideas.json",
             agent=agent,
-            async_execution=False,  # run as one job
+            async_execution=False,
             output_file="./meal_output_files/all_meal_ideas.json",
         )
 
@@ -80,28 +84,6 @@ class MealPlannerTasks:
             output_file="./meal_output_files/meal_plan.json",
         )
 
-    # def reporting_task(self, agent, meals_planned_task):
-    #     return Task(
-    #         description=dedent(
-    #             f"""
-    #         {self.__tip_section()}
-    #
-    #         Compile the meal plan results into a detailed report in a HTML file.
-    #     """
-    #         ),
-    #         expected_output="An HTML file with the results in the following format:"
-    #         "The Day of the Week"
-    #         "The Meal Type (e.g., Breakfast, Lunch, Dinner)"
-    #         "- Meal Name"
-    #         "   - Ingredients and Measurements"
-    #         "   - Nutritional Values (calories, protein, fats, etc)"
-    #         "Totals for all Nutritional Values",
-    #         agent=agent,
-    #         context=[meals_planned_task],
-    #         output_file="./meal_output_files/meal_plan.html",
-    #     )
-
-
     def reporting_task(self, agent, meals_planned_task):
         return Task(
             description=dedent(f"""
@@ -115,16 +97,21 @@ class MealPlannerTasks:
                      `<div class="meal" data-type="{{meal_type}}">` containing:
                        - `<h3>{{meal_type.title()}}: {{meal.name}}</h3>`
                        - `<ul>` of `<li>{{ingredient}}: {{amount}}</li>`
+                       - `<p class="instructions">{{meal.instructions}}</p> — the cooking or prep instructions`
+                       - `<p class="meal-calories">Calories: {{meal.calories}}</p> — per-meal calorie info`
+                       
                      Close `</div>`.
                   3. If snacks exist, create `<aside class="snacks">` with a `<ul>`.
                   4. Append a `<table class="nutrition-table">` summarizing that day’s totals:
-                     | Nutrient        | Amount   |
-                     |-----------------|----------|
-                     | Calories        | {{totals.calories}} |
-                     | Protein (g)     | {{totals.protein}}  |
-                     | Carbs (g)       | {{totals.carbs}}    |
-                     | Fat (g)         | {{totals.fat}}      |
-    
+                     | Nutrient        | Amount                     |
+                     |-----------------|----------------------------|
+                     | Calories        | {{totals.calories}}        |
+                     | Protein (g)     | {{totals.protein}}         |
+                     | Carbs (g)       | {{totals.carbs}}           |
+                     | Sugars (g)      | {{totals.sugar}}           |
+                     | Fat (g)         | {{totals.fat}}             |
+                     | Sat Fat(g)      | {{totals.saturatedfat}}    |
+                         
                 Ensure proper closing of all HTML tags.
             """),
             expected_output=dedent("""
@@ -137,4 +124,3 @@ class MealPlannerTasks:
             context=[meals_planned_task],
             output_file="./meal_output_files/meal_plan.html",
         )
-
